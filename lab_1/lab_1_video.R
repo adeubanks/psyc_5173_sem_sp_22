@@ -72,22 +72,8 @@ df %>% psych::describe() # descriptives
 # Problem 2 - Check missingness -------------------------------------------
 
 # you can use the map() family of functions, which apply some function you enter
-# as the input across a data frame***. map() returns a list, but map_dfc() returns
+# as the input across a data frame***. map() returns lists, but map_dfc() returns
 # a data frame that column-binds the lists
-
-# Or, you can use mutate() in conjunction with across() to essentially do the
-# same thing
-
-df %>% 
-  # map_dfc(is.na) %>% 
-  
-  # mutate(across(everything(), is.na)) %>% 
-  # mutate(across(sex_f:sra, is.na)) %>% 
-  # mutate(across(c(sex_f, birthregion_us, dep1, se1, sra), is.na)) %>% 
-  
-  colSums() # gets counts
-  #colMeans() # get percents
-
 
 df %>% 
   map_dfc(is.na) %>% 
@@ -123,10 +109,14 @@ df %>%
 #
 # high        natural log       reflect then natural log
 #                log(x)                 log(K - x)
+#                                          -or- 
+#                                         exp(x)
 #
 # extreme       inverse            reflect then inverse
-#                 1/x                   1/(K - x)
+#                 1/x                   1/(K - x)  
 
+# the inverse of natural logs is exponentiation ( exp() )
+log(exp(5)) # see? It cancels each other out. 
 
 # "Reflect" basically means reverse score, which we do by subtracting each score
 # from the (max possible score + 1), so K = max(x) + 1
@@ -138,7 +128,96 @@ df %>%
 df %>%
   select(se1, dep1) %>% 
   psych::describe()
-#---------.
+
+# dep1 == positive skew
+df %>% 
+  ggplot(aes(x = dep1))+
+  geom_density()
+
+df %>% 
+  mutate(dep1 = 1/(dep1)) %>% 
+  ggplot(aes(x = dep1))+
+  geom_density()
+
+# se1 = negative skew
+df %>% 
+  ggplot(aes(x = se1))+
+  geom_density()
+
+df %>% 
+  mutate(se1 = exp(se1)) %>% 
+  ggplot(aes(x = se1))+
+  geom_density()
+
+# it's bad form to overwrite existing data; instead, when you transform vars,
+# create new variables with labels that indicate what transformation has
+# happened, e.g.,
+
+df <- df %>%  
+  mutate(dep1_inv = 1/dep1, 
+         se1_exp = exp(se1)) %>% 
+  select(-dep1, -se1) 
+                  # Normally I would leave both the transformed and
+                  # untransformed vars in, but for educational purposes
+                  # (i.e., just to make things easy for the HW), I want 
+                  # to only keep 5 vars in the data set (instead of having
+                  # to select down to just the 5 we want for everything)
+
+
+# Problem 5 - BIvariate scatterplots --------------------------------------
+# check bivariate scatterplots with loess lines for the all pairings.
+
+df %>% 
+  pairs(panel = panel.smooth) # panel = panel.smooth adds the loess lines
+
+
+# Problem 6 - Variance-covariance matrix ----------------------------------
+# Create the variance-covariance matrix and export it as a csv
+
+df %>% 
+  var(use = "pair") %>% 
+  as_tibble(rownames = NA) %>% 
+  rownames_to_column() # %>% write_csv("vcov.csv")
+
+
+# Problem 7 - Correlation matrix ------------------------------------------
+# Create a correlation matrix and export it as a csv
+df %>% 
+  cor(use = "pair") %>% 
+  as_tibble(rownames = NA) %>% 
+  rownames_to_column() # %>% write_csv("cor.csv")
+
+
+# Problem 8 - The determinant ---------------------------------------------
+# Calculate the determinant of the variance-covariance matrix
+
+df %>% 
+  var(use = "pair") %>% 
+  det()
+
+# Problem 9 - Dichotomizing vars ------------------------------------------
+
+df <- df %>% 
+  mutate(sra_dich_high = ifelse(sra >= mean(sra, na.rm = T), 1, 0))
+
+
+# Additional Info ---------------------------------------------------------
+
+# Problem 2
+
+df %>% 
+  # map_dfc(is.na) %>% 
+  
+  # mutate(across(everything(), is.na)) %>% 
+  # mutate(across(sex_f:sra, is.na)) %>% 
+  # mutate(across(c(sex_f, birthregion_us, dep1, se1, sra), is.na)) %>% 
+  
+  colSums() # gets counts
+#colMeans() # get percents
+
+
+# Problem 4
+
 
 # dep1 == positive skew
 df %>% 
@@ -188,10 +267,6 @@ df %>%
   ggplot(aes(x = se1))+
   geom_density()
 
-# -- OR --
-# the inverse of natural logs is exponentiation ( exp() )
-log(exp(5)) # see? It cancels each other out. 
-
 df %>% 
   mutate(se1 = exp(se1)) %>% 
   ggplot(aes(x = se1))+
@@ -206,59 +281,8 @@ df %>%
   psych::describe()
 
 
-# it's bad form to overwrite existing data; instead, when you transform vars,
-# create new variables with labels that indicate what transformation has
-# happened, e.g.,
 
-df <- df %>%  
-  mutate(dep1_inv = 1/dep1, 
-         se1_exp = exp(se1)) %>% 
-  select(-dep1, -se1) 
-                  # Normally I would leave both the transformed and
-                  # untransformed vars in, but for educational purposes
-                  # (i.e., just to make things easy for the HW), I want 
-                  # to only keep 5 vars in the data set (instead of having
-                  # to select down to just the 5 we want for everything)
-
-
-# Problem 5 - BIvariate scatterplots --------------------------------------
-# check bivariate scatterplots with loess lines for the all pairings.
-
-df %>% 
-  pairs(panel = panel.smooth) # panel = panel.smooth adds the loess lines
-
-
-# Problem 6 - Variance-covariance matrix ----------------------------------
-# Create the variance-covariance matrix and export it as a csv
-
-df %>% 
-  var(use = "pair") %>% 
-  as_tibble(rownames = NA) %>% 
-  rownames_to_column() %>% 
-  write_csv("vcov.csv")
-
-
-# Problem 7 - Correlation matrix ------------------------------------------
-# Create a correlation matrix and export it as a csv
-df %>% 
-  cor(use = "pair") %>% 
-  as_tibble(rownames = NA) %>% 
-  rownames_to_column() %>% 
-  write_csv("cor.csv")
-
-
-# Problem 8 - The determinant ---------------------------------------------
-# Calculate the determinant of the variance-covariance matrix
-
-df %>% 
-  var(use = "pair") %>% 
-  det()
-
-# Problem 9 - Dichotomizing vars ------------------------------------------
-
-df %>% 
-  mutate(sra_dich_high = ifelse(sra >= mean(sra, na.rm = T), 1, 0))
-
+# Problem 9 
 # Just FYI: If you neen more than 2 groups, ifelse() won't work becasue it only
 # has 2 outcomes (TRUE/FALSE). For 3+ conditional statements, use case_when()
 
@@ -268,4 +292,3 @@ df %>%
                              TRUE ~ "mid")) %>%  # "TRUE" is the catchall meaning
   select(sra_tri) %>%                            # "everything else"
   table
-
