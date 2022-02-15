@@ -39,7 +39,7 @@
 
 
 #                                               Mac         Windows
-# Section labels (collapsible headers):  	 Cmd+Shift+R   Ctrl+Shift+R 	
+# labels (collapsible headers):  	 Cmd+Shift+R   Ctrl+Shift+R 	
 
 # Reflow comments:  	                     Cmd+Shift+/   Ctrl+Shift+/
 
@@ -57,7 +57,7 @@ library(tidyverse)
 
 
 # Problem 1 - read in,  structure,  descriptives --------------------------
-# Read in the data, look at it's strucute, check descriptives.
+# Read in the data, look at it's structure, check descriptives.
 
 df <- read_csv("lab_1_video.csv") # read in
 
@@ -177,7 +177,7 @@ df %>%
 df %>% 
   var(use = "pair") %>% 
   as_tibble(rownames = NA) %>% 
-  rownames_to_column() # %>% write_csv("vcov.csv")
+  rownames_to_column()  # %>% write_csv("vcov.csv")
 
 
 # Problem 7 - Correlation matrix ------------------------------------------
@@ -185,7 +185,7 @@ df %>%
 df %>% 
   cor(use = "pair") %>% 
   as_tibble(rownames = NA) %>% 
-  rownames_to_column() # %>% write_csv("cor.csv")
+  rownames_to_column()  # %>% write_csv("cor.csv")
 
 
 # Problem 8 - The determinant ---------------------------------------------
@@ -206,15 +206,13 @@ df <- df %>%
 # Problem 2
 
 df %>% 
-  # map_dfc(is.na) %>% 
   
   # mutate(across(everything(), is.na)) %>% 
   # mutate(across(sex_f:sra, is.na)) %>% 
-  # mutate(across(c(sex_f, birthregion_us, dep1, se1, sra), is.na)) %>% 
+   mutate(across(c(sex_f, birthregion_us, dep1, se1, sra), is.na)) %>% 
   
   colSums() # gets counts
 #colMeans() # get percents
-
 
 
 # Problem 4
@@ -288,6 +286,8 @@ df %>%
 df %>% 
   mutate(sra_tri = case_when(sra <  mean(sra, na.rm = T) - sd(sra, na.rm = T) ~ "low",
                              sra >  mean(sra, na.rm = T) + sd(sra, na.rm = T) ~ "high",
-                             TRUE ~ "mid")) %>%  # "TRUE" is the catchall meaning
+                             is.na(sra) ~ "NA",
+                             TRUE ~ "mid"),
+         sra_tri = ifelse(sra_tri == "NA", NA, sra_tri)) %>%  # "TRUE" is the catchall meaning
   select(sra_tri) %>%                            # "everything else"
   table
