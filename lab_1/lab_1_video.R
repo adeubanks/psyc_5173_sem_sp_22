@@ -177,7 +177,11 @@ df %>%
 df %>% 
   var(use = "pair") %>% 
   as_tibble(rownames = NA) %>% 
+<<<<<<< HEAD
   rownames_to_column()  # %>% write_csv("vcov.csv")
+=======
+  rownames_to_column() # %>% write_csv("vcov.csv")
+>>>>>>> 9c6a1072b881b973fb2c226446522be7561748e4
 
 
 # Problem 7 - Correlation matrix ------------------------------------------
@@ -185,7 +189,11 @@ df %>%
 df %>% 
   cor(use = "pair") %>% 
   as_tibble(rownames = NA) %>% 
+<<<<<<< HEAD
   rownames_to_column()  # %>% write_csv("cor.csv")
+=======
+  rownames_to_column() # %>% write_csv("cor.csv")
+>>>>>>> 9c6a1072b881b973fb2c226446522be7561748e4
 
 
 # Problem 8 - The determinant ---------------------------------------------
@@ -206,16 +214,29 @@ df <- df %>%
 # Problem 2
 
 df %>% 
+<<<<<<< HEAD
   
   # mutate(across(everything(), is.na)) %>% 
   # mutate(across(sex_f:sra, is.na)) %>% 
    mutate(across(c(sex_f, birthregion_us, dep1, se1, sra), is.na)) %>% 
+=======
+  # map_dfc(is.na) %>% 
+  
+  # mutate(across(everything(), is.na)) %>% 
+  # mutate(across(sex_f:sra, is.na)) %>% 
+  # mutate(across(c(sex_f, birthregion_us, dep1, se1, sra), is.na)) %>% 
+>>>>>>> 9c6a1072b881b973fb2c226446522be7561748e4
   
   colSums() # gets counts
 #colMeans() # get percents
 
 
 # Problem 4
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 9c6a1072b881b973fb2c226446522be7561748e4
 # dep1 == positive skew
 df %>% 
   ggplot(aes(x = dep1))+
