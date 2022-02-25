@@ -3,6 +3,7 @@
 # Lab 1 - Assumptions
 # Authored by: Austin Eubanks 
 # adeubank@uark.edu
+# Video: https://youtu.be/j2TC3hreIVk
 ##############################.
 
 
