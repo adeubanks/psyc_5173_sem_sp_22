@@ -1,14 +1,17 @@
 ###############################
 # PSYC 5173 - SEM - Spring 22
-# Lab 2 - Mediation
+# Lab 2 - General things
 # Authored by: Austin Eubanks 
-# adeubank@uark.education
+# adeubank@uark.edu
 ##############################.
 
 
 # Notes -------------------------------------------------------------------
-source("source/med.R") # <-don't worry about this. It's only for my plots.
 options(scipen = 20)
+
+# projects
+
+#git
 
 # Libraries ---------------------------------------------------------------
 library(tidyverse)
@@ -29,9 +32,7 @@ df  <- carData::Prestige %>%
 
 df %>% glimpse
 
-df %>%   
-  select(education, income, prestige) %>% 
-  psych::describe()
+df %>% psych::describe()
 
 
 # Assumptions -------------------------------------------------------------
@@ -42,10 +43,10 @@ df %>%
   colMeans() # no missing
 
 df %>% 
-  select(education, income, prestige) %>% 
+  select(education, income, prestige, X, Y, M) %>% 
   pivot_longer(cols = everything()) %>% 
-  ggplot(aes(x = value))+
-  geom_histogram()+
+  ggplot(aes(x = value))+ theme_classic()+
+  geom_density()+
   facet_wrap(~name, scales = "free")
 
 df %>% 
@@ -71,17 +72,33 @@ df %>%
   var()
 
 df %>% 
+  select(education, income, prestige) %>% 
+  var() %>% det()
+
+df %>% 
   select(Y, X, M) %>% 
   var()
+
+df %>% 
+  select(Y, X, M) %>% 
+  var() %>% det()
+
 # Regular ol' regressions vs. lavaan --------------------------------------
 
 
-education_only <- 'income ~ 1 + education' # Reminder: the 1 just puts the intercept in the output
+edu_only <- 'income ~ 1 + education' # Reminder: the 1 just puts the intercept in the output
 pre_only <- 'income ~ 1 + prestige' # but it's just like "getting the receipt;" it doesn't
-education_and_pre <- 'income ~ 1 + education + prestige' # change anything computationally.
+eduand_pre <- 'income ~ 1 + education + prestige' # change anything computationally.
 
-education_mod <- df %>% 
-  sem(education_only, data = .)
+edu_mod <- df %>% 
+  sem(edu_only, data = .) # A note on the warning message in a moment**
+
+edu_lm <- lm(income ~ education, data = df)
+
+summary(edu_mod)
+summary(edu_lm)
+
+# Warning message: this is 
 
 pre_mod <- df %>% 
   sem(pre_only, data = .)
@@ -90,9 +107,8 @@ both_mod <- df %>%
   sem(education_and_pre, data = .)
 
 
-summary(education_mod)
-summary(lm(income ~ education, data = df))
 
+med_plot(pre_mod)
 summary(pre_mod)
 summary(lm(income ~ prestige, data = df))
 
@@ -152,4 +168,5 @@ df %>%
   summary()
 
 
-df %>% med_plot_info(prestige_mediation)
+med_plot_info(df, prestige_mediation)
+
