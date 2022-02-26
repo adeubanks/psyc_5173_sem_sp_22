@@ -8,7 +8,7 @@
 
 # Notes -------------------------------------------------------------------
 # projects
-# git - changes
+# git
 
 # Libraries ---------------------------------------------------------------
 library(tidyverse)
@@ -16,11 +16,8 @@ library(lavaan)
 library(broom)
 
 
-<<<<<<< HEAD
 # read in and explore data ------------------------------------------------
-=======
-# read in and explre data -------------------------------------------------
->>>>>>> 65eb721f63e6b3dfaeed26236be8ec760ec465f0
+
 df <- read_csv("lab_2_video.csv")
  
 df %>% glimpse
@@ -68,13 +65,13 @@ lm(income3 ~ birthregion_us_0, data = df) %>% tidy
 contrasts(df$birthregion_copy)
 contrasts(df$birthregion_copy) <- c(1, 0) 
 
-<<<<<<< HEAD
+
 lm(income3 ~ birthregion, data = df) %>% tidy
 lm(income3 ~ birthregion_copy, data = df) %>% tidy
 
 # needs to be a matrix if more than 2
 matrix(1:12, ncol = 3)
-=======
+
 lm(income3 ~ birthregion_copy, data = df) %>% tidy
 lm(income3 ~ birthregion_copy, data = df) %>% tidy
 
@@ -84,8 +81,6 @@ lm(income3 ~ birthregion_copy, data = df) %>% tidy
 matrix(1:12, ncol = 3)
 
 lm(income3 ~ birthregion, data = df) %>% tidy
->>>>>>> 65eb721f63e6b3dfaeed26236be8ec760ec465f0
-
 
 
 # p isn't everything with a big n's
@@ -101,12 +96,9 @@ df %>%
 
 # dummy codes for > 2 groups ----------------------------------------------
 
-<<<<<<< HEAD
-=======
 
 # dummy codes for > 2 groups ----------------------------------------------
 
->>>>>>> 65eb721f63e6b3dfaeed26236be8ec760ec465f0
 lm(income3 ~ mom_ed, data = df) %>% tidy
 contrasts(df$mom_ed)
 df %>% group_by(mom_ed) %>% summarise(M = mean(income3))
@@ -134,19 +126,6 @@ birthregion_mod_1_spec <- 'income3 ~ 1 + birthregion'
 # Reminder: the 1 just puts the intercept in the output but it's just like
 # "getting the receipt;" it doesn't change anything computationally.
 birthregion_mod_2_spec <- 'income3 ~ birthregion' 
-<<<<<<< HEAD
-
-birthregion_mod_1 <- df %>% 
-  sem(birthregion_mod_1_spec, data = .)
-
-birthregion_mod_2 <- df %>% 
-  sem(birthregion_mod_2_spec, data = .)
-
-lm(income3 ~ birthregion, data = df) %>% tidy
-
-summary(birthregion_mod_1)
-summary(birthregion_mod_2)
-=======
 
 birthregion_mod_1 <- df %>% 
   sem(birthregion_mod_1_spec, data = .)
@@ -159,17 +138,25 @@ lm(income3 ~ birthregion, data = df) %>% tidy
 summary(birthregion_mod_1)
 summary(birthregion_mod_2)
 
->>>>>>> 65eb721f63e6b3dfaeed26236be8ec760ec465f0
+birthregion_mod_1 <- df %>% 
+  sem(birthregion_mod_1_spec, data = .)
+
+birthregion_mod_2 <- df %>% 
+  sem(birthregion_mod_2_spec, data = .)
+
+lm(income3 ~ birthregion, data = df) %>% tidy
+
+summary(birthregion_mod_1)
+summary(birthregion_mod_2)
+
 
 mod_2_spec <- 'income3 ~ 1 + birthregion + sma' 
 mod_2 <- df %>% sem(mod_2_spec, data = .)
 
-<<<<<<< HEAD
 mod_2_spec <- 'income3 ~ 1 + birthregion + sma' 
 mod_2 <- df %>% sem(mod_2_spec, data = .)
 
-=======
->>>>>>> 65eb721f63e6b3dfaeed26236be8ec760ec465f0
+
 lm(income3 ~ birthregion + sma, data = df) %>% tidy
 
 summary(mod_2)
