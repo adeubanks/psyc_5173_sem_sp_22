@@ -10,25 +10,106 @@
 options(scipen = 20)
 
 # projects
-
-#git
+# git
 
 # Libraries ---------------------------------------------------------------
 library(tidyverse)
 library(lavaan)
 
 
+# Data,  structure,  descriptives -----------------------------------------
+
+df <- read_csv("lab_2_video.csv")
+
+df %>% glimpse
+
+df %>% 
+  select(where(is.character)) %>% 
+  map(table)
+
+df %>% 
+  select(where(is.numeric)) %>% 
+  GGally::ggpairs(lower = list(continuous = GGally::wrap("smooth_loess", 
+                                                         alpha = 0.1, 
+                                                         size=0.1,
+                                                         color = "red")))
+
+
+# dummy coding ------------------------------------------------------------
+
+df <- df %>% 
+  mutate(across(where(is.character), ~ as.factor(.x))) 
+
+summary(lm(income3 ~ birthregion, data = df))
+contrasts(df$birthregion)
+df %>% group_by(birthregion) %>% summarise(M = mean(income3))
+
+df %>% 
+  ggplot(aes(x = birthregion, y = income3)) + 
+  stat_summary(fun.data = mean_cl_normal, 
+               geom = "pointrange")
+
+# How to change dummy codes: Option 1 - create numeric vars
+df <- df %>% 
+  mutate(birthregion_us_0 = ifelse(birthregion == "United States", 0, 1))
+
+summary(lm(income3 ~ birthregion_us_0, data = df))
+
+# Option 2: change the contrasts of a factor
+contrasts(df$birthregion)
+contrasts(df$birthregion) <- c(1, 0)
+
+summary(lm(income3 ~ birthregion, data = df))
+
+
+
+# p isn't everything with a big n's
+summary(lm(income3 ~ sex, data = df))
+df %>% group_by(sex) %>% summarise(M = mean(income3))
+
+df %>% 
+  ggplot(aes(x = sex, y = income3)) + 
+  stat_summary(fun.data = mean_cl_normal, 
+               geom = "pointrange")
+
+
+# dummy codes for > 2 groups
+summary(lm(income3 ~ mom_ed, data = df))
+contrasts(df$mom_ed)
+df %>% group_by(mom_ed) %>% summarise(M = mean(income3))
+
+df <- df %>% 
+  mutate(mom_ed = fct_relevel(mom_ed, "High school graduate"))
+
+contrasts(df$mom_ed)
+summary(lm(income3 ~ mom_ed, data = df))
+
+
+# Other option, manually make coded variables:
+
+df <- df %>% 
+  mutate(mom_ed_d1 = ifelse(mom_ed == "less.than.hs", 1, 0),
+         mom_ed_d2 = ifelse(mom_ed == "Some college/university", 1, 0),
+         mom_ed_d3 = ifelse(mom_ed == "College graduate or more", 1, 0))
+
+
+# HS grad as ref
+contrasts(df$mom_ed) <- matrix(c(1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0), ncol = 3)
+
+
+
+#
 
 # Data,  structure,  descriptives -----------------------------------------
 ?carData::Prestige
 
 df  <- carData::Prestige %>%
-  mutate(education = education - mean(education), 
-         prestige = prestige - mean(prestige),
-         X = education, 
-         Y = income, 
-         M = prestige,
-         across(X:M, ~ scale(.x) %>% as.vector))
+  mutate(education_c = education - mean(education), 
+         prestige_c = prestige - mean(prestige),
+         education_std = education, 
+         income_std = income, 
+         prestige_std = prestige,
+         across(education_std:prestige_std, ~ scale(.x) %>% as.vector))
 
 df %>% glimpse
 

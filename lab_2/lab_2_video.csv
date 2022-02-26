@@ -1,0 +1,1161 @@
+caseid,sex,birthregion,mom_ed,friends1,sma,sra,gpa1,income3,jobscore3,jobsat3
+9,Male,outside US,less.than.hs,44,43,62,1.33,1200,30,1
+27,Male,outside US,College graduate or more,44,63,51,1,1400,49,3
+28,Female,outside US,less.than.hs,22,73,40,2.83,2000,57,4
+29,Male,outside US,High school graduate,3,92,60,3,2500,51,2
+30,Male,outside US,Some college/university,40,46,73,2,140,41,3
+32,Female,outside US,less.than.hs,40,97,70,3.33,1000,38,4
+38,Female,outside US,Some college/university,3,77,44,3.17,500,39,4
+42,Male,outside US,College graduate or more,48,56,87,2.42,1200,53,4
+46,Female,outside US,Some college/university,8,28,8,2.83,2000,49,4
+48,Male,outside US,Some college/university,14,19,83,1.75,2000,45,5
+49,Male,outside US,less.than.hs,3,95,84,2.66,850,45,3
+51,Male,outside US,Some college/university,13,89,67,1.86,260,51,4
+52,Female,outside US,High school graduate,48,82,62,2.33,297,38,4
+54,Female,outside US,less.than.hs,35,82,88,2.17,800,53,3
+56,Male,outside US,High school graduate,22,86,87,2.92,2000,66,5
+57,Male,outside US,less.than.hs,13,18,8,0.42,1200,20,3
+58,Male,outside US,less.than.hs,30,57,32,2.33,500,53,4
+61,Male,outside US,College graduate or more,3,69,63,3.33,1000,29,4
+65,Female,outside US,High school graduate,8,89,62,3.67,2500,54,5
+66,Male,outside US,less.than.hs,48,54,76,1.83,500,39,5
+69,Female,outside US,Some college/university,8,77,62,2.92,2600,54,3
+72,Male,outside US,less.than.hs,18,4,29,2.33,1900,39,4
+74,Female,outside US,Some college/university,40,97,34,2.83,2200,66,4
+75,Female,outside US,Some college/university,13,80,37,3.08,1250,49,3
+85,Female,outside US,less.than.hs,3,80,82,2,2400,55,5
+94,Female,outside US,College graduate or more,18,99,79,2.75,1680,42,4
+105,Female,outside US,Some college/university,13,24,35,3.43,1200,38,3
+106,Female,outside US,less.than.hs,30,3,22,2.33,1220,50,5
+109,Male,outside US,College graduate or more,3,64,43,2.5,1500,53,4
+113,Male,outside US,High school graduate,48,5,5,2.5,1250,20,4
+118,Female,outside US,College graduate or more,18,19,53,1.58,1440,55,5
+124,Female,outside US,High school graduate,8,15,10,1,1500,29,4
+125,Female,outside US,Some college/university,44,15,54,2.5,1700,66,3
+129,Male,outside US,College graduate or more,3,87,37,2.57,2000,26,3
+133,Female,outside US,Some college/university,22,86,66,3.6,1000,37,5
+135,Female,outside US,College graduate or more,30,85,46,3.33,400,64,4
+139,Female,outside US,College graduate or more,48,67,18,3,900,32,5
+141,Male,outside US,less.than.hs,3,57,29,2.43,1900,34,3
+146,Female,outside US,High school graduate,48,89,83,2.17,1600,49,4
+158,Female,outside US,College graduate or more,8,95,73,2.5,2500,55,5
+165,Female,outside US,High school graduate,40,85,76,4,1500,23,4
+167,Female,outside US,College graduate or more,40,42,54,1.94,2000,29,4
+173,Female,outside US,High school graduate,44,91,99,3.2,1200,53,4
+176,Female,outside US,College graduate or more,3,6,18,1.42,1500,38,3
+179,Female,outside US,Some college/university,48,90,68,3.25,1500,49,4
+185,Male,outside US,High school graduate,35,20,50,1.5,1600,42,3
+203,Male,outside US,less.than.hs,18,1,29,2,1100,42,2
+206,Female,outside US,less.than.hs,40,66,84,3.27,420,42,3
+216,Female,outside US,less.than.hs,3,60,44,1.75,400,78,5
+219,Female,outside US,High school graduate,35,74,37,2.67,1300,50,4
+223,Female,outside US,Some college/university,3,18,8,2.5,1200,32,1
+227,Female,outside US,less.than.hs,35,80,47,2.25,1300,34,4
+228,Female,outside US,less.than.hs,40,36,27,2.36,2400,33,4
+230,Female,outside US,less.than.hs,30,11,45,3,500,38,2
+231,Female,outside US,less.than.hs,30,33,29,1.33,1500,50,2
+232,Female,outside US,High school graduate,40,77,91,3.64,2550,58,3
+236,Female,outside US,Some college/university,3,61,69,3.07,1291,29,3
+238,Female,outside US,College graduate or more,48,40,16,2.33,1800,53,4
+240,Female,outside US,Some college/university,35,21,41,2.67,600,23,4
+244,Female,outside US,less.than.hs,30,56,71,2.91,2000,39,5
+245,Female,outside US,College graduate or more,3,93,58,3.9,2000,68,3
+249,Male,outside US,High school graduate,1,59,40,1.67,1800,32,4
+250,Female,outside US,High school graduate,48,18,13,0.58,1400,38,3
+256,Female,outside US,High school graduate,3,54,40,2.08,1500,42,3
+257,Male,outside US,College graduate or more,35,93,94,3.07,2200,42,3
+258,Male,outside US,College graduate or more,35,99,97,4,1300,53,4
+259,Male,outside US,College graduate or more,36,94,10,2.4,800,22,2
+279,Female,outside US,High school graduate,30,64,79,2.4,1650,34,5
+285,Male,outside US,College graduate or more,3,34,28,2.5,850,48,4
+299,Female,outside US,High school graduate,3,21,20,2.33,2000,34,4
+307,Male,outside US,less.than.hs,40,47,61,1.9,620,42,2
+310,Male,outside US,High school graduate,3,9,10,1.92,2500,36,5
+311,Male,outside US,less.than.hs,49,36,17,3,1600,38,3
+312,Female,outside US,High school graduate,30,61,44,1.92,1440,55,3
+313,Female,outside US,College graduate or more,30,21,35,2.25,1000,42,4
+319,Female,outside US,College graduate or more,35,37,54,2.9,1500,37,5
+322,Male,outside US,less.than.hs,40,63,20,1.17,2300,39,5
+335,Female,outside US,High school graduate,22,88,37,2.33,1500,53,4
+340,Male,outside US,Some college/university,8,73,67,2.83,2500,42,3
+342,Female,outside US,Some college/university,40,86,90,3.5,1640,72,4
+343,Female,outside US,High school graduate,35,91,68,3.83,2500,44,2
+347,Male,outside US,High school graduate,35,5,3,2.3,2000,28,4
+349,Female,outside US,High school graduate,8,23,13,0.83,1200,34,4
+360,Female,outside US,College graduate or more,3,65,39,3.25,800,60,5
+361,Female,outside US,less.than.hs,14,68,34,3.17,1000,49,5
+366,Male,outside US,High school graduate,48,77,84,2.5,2000,55,4
+368,Female,outside US,less.than.hs,35,53,24,2.33,1400,48,4
+386,Female,outside US,Some college/university,23,83,35,3.67,400,38,5
+387,Female,outside US,High school graduate,30,17,35,2.43,980,45,2
+397,Female,outside US,less.than.hs,22,21,20,2.2,1000,56,5
+398,Female,outside US,College graduate or more,9,54,5,1.92,1000,49,5
+403,Male,outside US,College graduate or more,32,33,24,0.67,865,39,3
+409,Female,outside US,less.than.hs,2,53,49,2,1400,56,4
+413,Female,outside US,Some college/university,40,28,29,1.83,2000,34,5
+414,Female,outside US,High school graduate,18,1,49,1.25,350,20,4
+416,Male,outside US,High school graduate,30,83,91,3.14,2200,53,4
+417,Female,outside US,less.than.hs,3,18,22,2,1200,38,3
+420,Female,outside US,College graduate or more,30,70,49,3.5,2500,42,4
+424,Female,outside US,High school graduate,18,90,57,3.55,1600,31,4
+425,Male,outside US,High school graduate,13,1,41,2.2,750,34,1
+433,Female,outside US,Some college/university,18,88,79,2.42,2200,54,5
+434,Female,outside US,Some college/university,2,80,24,3.17,1400,60,5
+451,Female,outside US,College graduate or more,48,99,98,4,1500,42,4
+453,Male,outside US,less.than.hs,40,86,96,3.64,1800,37,4
+454,Female,outside US,College graduate or more,13,57,5,2.5,980,42,5
+462,Female,outside US,College graduate or more,40,91,82,3.43,1740,62,5
+469,Female,outside US,Some college/university,8,25,54,3.67,860,51,4
+477,Male,outside US,High school graduate,40,29,31,3.7,900,32,3
+484,Male,outside US,College graduate or more,6,61,49,1.73,1000,34,3
+492,Female,outside US,College graduate or more,3,89,81,3.36,200,26,1
+493,Female,outside US,College graduate or more,22,77,64,2.83,700,55,4
+501,Male,outside US,less.than.hs,22,67,43,3.58,350,23,3
+515,Female,outside US,High school graduate,44,83,37,3.33,1800,34,4
+519,Female,outside US,College graduate or more,30,66,67,2.83,2400,54,4
+522,Female,outside US,High school graduate,40,92,79,3.58,360,42,4
+526,Female,outside US,Some college/university,35,61,84,3.75,2500,42,2
+533,Male,outside US,Some college/university,22,99,62,3.33,1200,26,5
+543,Male,outside US,Some college/university,30,88,63,3.2,2000,39,4
+545,Female,outside US,High school graduate,3,77,61,2.83,2200,60,5
+560,Male,outside US,College graduate or more,30,37,70,1.8,350,34,4
+565,Male,outside US,High school graduate,44,88,57,3,2600,44,4
+566,Male,outside US,less.than.hs,3,56,13,3.5,2000,21,4
+567,Female,outside US,less.than.hs,22,64,54,2.75,1003,53,4
+572,Female,outside US,less.than.hs,3,1,49,2.3,1000,50,3
+573,Female,outside US,Some college/university,30,86,94,4,300,31,3
+574,Male,outside US,Some college/university,10,86,87,3,2000,46,5
+577,Female,outside US,less.than.hs,3,91,53,2.5,2000,55,4
+579,Female,outside US,less.than.hs,3,63,25,3.9,750,42,4
+589,Female,outside US,College graduate or more,1,74,47,2.33,1300,34,4
+593,Male,outside US,less.than.hs,14,21,3,1.9,2000,21,4
+595,Female,outside US,less.than.hs,35,9,25,3.3,1400,44,3
+599,Female,outside US,less.than.hs,30,91,70,2.83,600,38,4
+602,Male,outside US,High school graduate,44,13,28,1.3,1600,33,2
+604,Male,outside US,High school graduate,6,21,23,1.5,2500,38,1
+606,Female,outside US,Some college/university,3,65,99,3.7,1500,42,3
+607,Female,outside US,less.than.hs,40,99,64,3,2320,53,4
+611,Female,outside US,Some college/university,40,75,70,3.5,700,55,4
+612,Female,outside US,High school graduate,22,99,73,3.29,1758,48,4
+617,Female,outside US,Some college/university,13,50,42,1.82,1500,52,4
+624,Male,outside US,College graduate or more,3,32,13,3.1,500,34,4
+633,Female,outside US,High school graduate,22,23,58,1.57,1400,42,5
+649,Female,outside US,less.than.hs,35,45,32,1.83,1700,34,4
+653,Male,outside US,College graduate or more,5,45,47,2.33,1500,42,4
+657,Female,outside US,College graduate or more,26,65,49,4,400,42,4
+660,Male,outside US,High school graduate,18,22,34,2.33,1300,46,5
+664,Male,outside US,less.than.hs,13,83,61,3.08,1300,32,3
+666,Female,outside US,less.than.hs,2,20,22,2.42,1700,53,4
+669,Female,outside US,Some college/university,3,30,37,2.83,1500,37,4
+671,Female,outside US,Some college/university,44,85,79,3.33,1300,30,3
+674,Female,outside US,College graduate or more,13,97,84,3.5,1200,53,4
+676,Male,outside US,College graduate or more,6,62,77,2.57,800,48,3
+680,Female,outside US,less.than.hs,48,28,24,3,1400,34,3
+684,Male,outside US,less.than.hs,8,62,37,3.6,700,58,4
+686,Male,outside US,less.than.hs,8,99,94,3.8,2000,58,4
+688,Female,outside US,College graduate or more,3,86,70,2.25,1600,67,3
+699,Female,outside US,Some college/university,22,96,46,3.6,1200,42,3
+702,Female,outside US,College graduate or more,22,78,35,3.5,1400,53,4
+703,Female,outside US,College graduate or more,6,59,56,3.8,1100,42,4
+705,Female,outside US,Some college/university,22,46,46,2.5,2700,34,4
+719,Female,outside US,less.than.hs,22,40,49,2.58,2000,38,4
+723,Female,outside US,Some college/university,40,34,20,3.7,1600,50,5
+725,Male,outside US,College graduate or more,22,82,65,3.25,2500,42,3
+727,Male,outside US,College graduate or more,14,52,20,3.9,1200,46,3
+729,Male,outside US,College graduate or more,36,21,41,2.6,675,62,5
+733,Male,outside US,High school graduate,3,51,3,2.9,1200,44,2
+741,Female,outside US,High school graduate,3,99,91,3.92,1000,53,4
+745,Female,outside US,Some college/university,35,61,71,3,600,31,3
+752,Female,outside US,less.than.hs,35,5,3,1.92,600,34,2
+754,Male,outside US,High school graduate,3,70,15,3.6,2000,39,4
+756,Female,outside US,less.than.hs,14,34,49,1.7,1400,53,5
+757,Male,outside US,less.than.hs,44,52,13,2.2,2400,31,4
+758,Female,outside US,less.than.hs,22,63,4,2.2,1700,49,4
+763,Male,outside US,less.than.hs,8,36,5,2.4,1800,46,4
+764,Male,outside US,College graduate or more,35,12,57,1.58,2000,33,3
+767,Female,outside US,less.than.hs,44,28,7,2.6,1100,42,4
+773,Female,outside US,less.than.hs,35,12,23,2.5,780,42,3
+774,Male,outside US,less.than.hs,51,41,4,2.5,550,18,3
+776,Male,outside US,less.than.hs,35,36,15,2.18,1500,30,2
+782,Male,outside US,less.than.hs,14,63,34,1.3,2000,51,4
+785,Female,outside US,less.than.hs,14,12,8,2.5,1200,53,4
+792,Male,outside US,less.than.hs,8,16,15,1.5,2600,52,4
+793,Male,outside US,College graduate or more,3,12,18,1.7,1800,20,5
+804,Male,outside US,less.than.hs,13,15,1,3.3,1500,20,3
+808,Male,outside US,Some college/university,3,36,18,1.5,2660,39,3
+809,Female,outside US,Some college/university,48,82,34,3.27,2200,34,3
+810,Female,outside US,College graduate or more,48,45,49,3.5,1500,48,3
+812,Female,outside US,less.than.hs,44,97,87,3.8,500,26,4
+813,Male,outside US,High school graduate,51,96,75,3.08,1850,42,3
+814,Male,outside US,High school graduate,30,90,58,2.5,2000,26,3
+818,Female,outside US,less.than.hs,3,70,84,1.7,1200,50,5
+820,Male,outside US,High school graduate,3,52,22,2.67,700,49,3
+821,Female,outside US,Some college/university,22,59,84,2.73,130,42,3
+822,Female,outside US,Some college/university,3,96,75,2.5,2128,45,4
+823,Female,outside US,College graduate or more,14,86,62,3.92,1000,58,2
+825,Female,outside US,less.than.hs,8,5,1,1.2,2500,50,5
+826,Female,outside US,Some college/university,2,31,31,2,1100,44,3
+830,Male,outside US,less.than.hs,46,1,1,0.4,2600,31,1
+835,Female,outside US,less.than.hs,3,9,23,2.1,1200,34,5
+846,Female,outside US,College graduate or more,3,18,13,2.3,420,49,1
+861,Male,outside US,Some college/university,2,19,40,1.83,1700,31,4
+864,Female,outside US,Some college/university,18,24,57,2.17,2800,62,5
+865,Male,outside US,High school graduate,1,47,29,1.67,800,21,2
+866,Female,outside US,Some college/university,3,13,34,1.5,2500,34,5
+871,Female,outside US,High school graduate,51,57,60,2.67,550,42,4
+877,Male,outside US,College graduate or more,3,50,6,1.7,1760,34,2
+879,Male,outside US,Some college/university,35,80,51,1.93,2500,53,4
+882,Female,outside US,less.than.hs,3,16,8,2,1300,34,5
+888,Female,outside US,less.than.hs,11,31,40,1.67,1000,42,5
+892,Female,outside US,less.than.hs,1,42,43,2.36,1800,42,2
+895,Female,outside US,High school graduate,8,94,81,2.83,1760,42,3
+898,Male,outside US,less.than.hs,14,33,20,1.08,1200,37,4
+911,Female,outside US,High school graduate,51,99,76,3.5,1600,34,4
+912,Female,outside US,Some college/university,48,77,59,3.67,1400,44,3
+917,Female,outside US,less.than.hs,22,64,43,2.93,700,23,3
+922,Male,outside US,High school graduate,30,88,41,3.17,2416,62,3
+928,Female,outside US,High school graduate,2,54,44,2.42,1000,44,4
+929,Female,outside US,less.than.hs,7,64,82,2.75,1830,69,5
+931,Female,outside US,less.than.hs,48,82,46,2.5,1200,50,4
+933,Male,outside US,College graduate or more,3,68,13,2,2000,42,5
+937,Female,outside US,High school graduate,3,1,1,1.6,1000,38,2
+939,Male,outside US,Some college/university,30,36,15,3.09,400,34,4
+947,Male,outside US,less.than.hs,13,44,70,3,1960,42,4
+954,Female,outside US,less.than.hs,40,16,57,1.3,1600,50,3
+957,Female,outside US,less.than.hs,3,39,17,1.8,1500,35,4
+958,Female,outside US,less.than.hs,22,46,75,3.2,1200,53,2
+962,Female,outside US,less.than.hs,40,64,65,2.9,1200,37,4
+967,Female,outside US,High school graduate,30,35,12,2.25,1500,42,4
+974,Male,outside US,less.than.hs,3,1,1,1.7,2500,44,3
+981,Male,outside US,Some college/university,44,8,24,1.17,1350,33,4
+982,Male,outside US,less.than.hs,40,54,65,1.5,2000,37,4
+986,Female,outside US,Some college/university,35,71,45,1.94,2200,55,5
+987,Female,outside US,High school graduate,3,98,60,4,1200,49,4
+988,Female,outside US,less.than.hs,22,32,20,1.56,1600,44,4
+995,Female,outside US,High school graduate,3,77,67,2.67,1300,38,4
+999,Female,outside US,Some college/university,30,61,27,1.58,1600,57,3
+1001,Male,outside US,less.than.hs,35,70,13,2.1,2450,20,3
+1004,Male,outside US,College graduate or more,48,83,57,3.17,1000,70,5
+1007,Female,outside US,less.than.hs,22,20,5,1.08,800,48,4
+1011,Female,outside US,College graduate or more,18,20,60,0.08,1500,52,5
+1014,Female,outside US,High school graduate,3,74,37,2.17,1800,34,4
+1016,Male,outside US,College graduate or more,35,60,60,1.76,2692,53,4
+1020,Female,outside US,less.than.hs,30,13,54,0.57,2000,42,3
+1021,Female,outside US,High school graduate,35,82,37,2.17,2700,44,4
+1023,Male,outside US,College graduate or more,35,99,84,3.75,1250,60,5
+1025,Female,outside US,less.than.hs,22,10,31,2.1,2200,42,5
+1032,Male,outside US,High school graduate,22,47,24,2.75,1200,32,3
+1033,Female,outside US,less.than.hs,3,20,21,1.83,2960,45,5
+1035,Female,outside US,College graduate or more,30,77,47,3.17,1500,52,4
+1039,Female,outside US,Some college/university,18,18,35,0.75,600,50,5
+1040,Female,outside US,High school graduate,22,92,79,2.5,2700,57,3
+1043,Female,outside US,High school graduate,35,63,79,3,2200,67,5
+1046,Male,outside US,High school graduate,18,43,40,2.08,1800,53,5
+1053,Male,outside US,College graduate or more,18,68,34,2.33,2500,53,5
+1055,Female,outside US,High school graduate,13,90,87,3.3,2200,38,5
+1061,Female,outside US,High school graduate,22,37,46,1.67,1200,49,4
+1069,Male,outside US,High school graduate,18,41,51,2.42,1600,39,3
+1073,Male,outside US,High school graduate,35,66,20,2.58,1000,51,4
+1074,Female,outside US,High school graduate,30,59,31,1.5,1300,45,4
+1079,Male,outside US,High school graduate,3,54,51,1.92,1700,33,4
+1080,Female,outside US,High school graduate,22,95,56,3.08,1200,27,5
+1087,Male,outside US,less.than.hs,18,91,49,3.33,620,42,4
+1091,Female,outside US,College graduate or more,44,21,15,2.5,1000,38,4
+1098,Male,outside US,College graduate or more,1,41,46,2.1,1800,39,4
+1101,Female,outside US,College graduate or more,8,82,41,3.5,1000,50,4
+1103,Male,outside US,High school graduate,14,59,54,3,1600,34,3
+1107,Female,outside US,College graduate or more,48,32,79,3.9,750,48,2
+1121,Female,outside US,Some college/university,40,75,65,1.8,600,57,4
+1123,Male,outside US,less.than.hs,44,51,11,2.08,2500,33,4
+1134,Female,outside US,Some college/university,22,33,24,2.92,1600,58,4
+1150,Male,outside US,Some college/university,35,51,64,1,2500,57,3
+1155,Male,outside US,less.than.hs,35,0,0,0,1000,45,3
+1160,Male,outside US,less.than.hs,45,74,35,2.5,1200,42,4
+1170,Female,outside US,Some college/university,40,94,47,1.92,2400,53,5
+1171,Female,outside US,less.than.hs,23,10,11,3,2500,26,5
+1172,Male,outside US,College graduate or more,3,55,38,3.64,1800,55,3
+1173,Female,outside US,College graduate or more,22,86,85,2.6,325,52,5
+1190,Male,outside US,College graduate or more,35,92,29,2.92,1200,38,5
+1192,Female,outside US,Some college/university,40,82,94,4,1400,49,4
+1193,Female,outside US,Some college/university,22,74,62,2.2,1800,39,5
+1194,Male,outside US,High school graduate,48,31,49,2.18,1600,34,5
+1197,Female,outside US,High school graduate,13,56,65,2.7,1341,50,5
+1199,Female,outside US,Some college/university,44,74,46,3.2,500,50,5
+1200,Male,outside US,Some college/university,3,56,46,3.1,365,37,4
+1205,Male,outside US,less.than.hs,8,96,71,3.25,2200,53,4
+1207,Female,outside US,College graduate or more,3,26,65,2.92,2300,42,4
+1214,Female,outside US,College graduate or more,44,54,57,2.58,600,53,5
+1215,Male,outside US,College graduate or more,14,84,97,4,2500,68,5
+1220,Male,outside US,College graduate or more,18,56,25,3.2,1000,46,4
+1222,Female,outside US,College graduate or more,13,59,25,3,500,16,4
+1226,Male,outside US,less.than.hs,13,51,57,2.55,850,22,2
+1233,Male,outside US,less.than.hs,35,21,23,2,1650,27,4
+1234,Male,outside US,less.than.hs,35,2,10,2,800,34,1
+1235,Male,outside US,High school graduate,35,6,10,2.8,1200,44,4
+1240,Female,outside US,less.than.hs,48,5,8,2.4,1400,39,5
+1242,Male,outside US,less.than.hs,13,3,6,2.6,1300,29,3
+1247,Female,outside US,less.than.hs,13,27,65,2.7,650,42,3
+1249,Female,outside US,less.than.hs,18,46,20,1.2,2100,45,5
+1250,Male,outside US,less.than.hs,35,82,66,3.5,700,50,5
+1256,Male,outside US,less.than.hs,22,68,45,2.6,900,39,4
+1257,Male,outside US,less.than.hs,35,9,6,1.18,1250,34,3
+1268,Male,outside US,less.than.hs,3,2,15,1.3,1000,33,2
+1269,Female,outside US,less.than.hs,14,2,1,1.25,1800,38,4
+1270,Female,outside US,less.than.hs,2,26,25,3.1,1800,44,5
+1271,Male,outside US,less.than.hs,14,98,46,3,1000,34,4
+1274,Female,outside US,High school graduate,2,9,20,2.5,2800,39,3
+1278,Male,outside US,High school graduate,40,54,45,2,1500,30,2
+1279,Female,outside US,Some college/university,3,73,79,2.3,1100,38,4
+1284,Female,outside US,less.than.hs,3,36,20,2.3,2100,34,4
+1286,Male,outside US,High school graduate,3,99,45,3.4,150,29,5
+1289,Male,outside US,less.than.hs,44,36,35,3,1200,57,3
+1290,Male,outside US,less.than.hs,36,75,4,0.6,1800,42,4
+1294,Female,outside US,High school graduate,30,88,61,2.86,2380,34,1
+1296,Male,outside US,High school graduate,40,12,31,2.2,1700,28,2
+1305,Female,outside US,Some college/university,35,68,97,3.33,900,23,3
+1306,Male,outside US,College graduate or more,30,83,22,1.5,1100,16,3
+1310,Male,outside US,High school graduate,2,68,11,1.42,900,29,4
+1311,Male,outside US,College graduate or more,18,25,46,1.75,850,34,2
+1312,Male,outside US,less.than.hs,22,18,54,0.67,1700,42,3
+1313,Male,outside US,Some college/university,2,35,32,2.5,2100,51,2
+1318,Male,outside US,Some college/university,35,87,84,1.75,1400,56,5
+1327,Male,outside US,College graduate or more,3,20,57,2.2,1800,46,5
+1342,Male,outside US,Some college/university,44,57,76,3.75,2000,46,3
+1344,Male,outside US,Some college/university,35,45,70,2.43,2000,33,4
+1346,Male,outside US,College graduate or more,22,99,81,3.83,2300,42,4
+1348,Female,outside US,High school graduate,48,77,64,3.5,200,66,1
+1349,Male,outside US,Some college/university,22,97,67,2.36,800,55,3
+1351,Male,outside US,High school graduate,23,69,67,2.17,1500,58,5
+1353,Male,outside US,less.than.hs,22,92,41,2.7,1100,34,4
+1365,Female,outside US,College graduate or more,40,97,71,3.17,1000,56,4
+1371,Female,outside US,College graduate or more,4,91,68,3.17,1500,53,4
+1372,Male,outside US,Some college/university,6,71,64,2.31,2000,56,5
+1373,Female,outside US,College graduate or more,40,88,63,3.17,1700,57,4
+1377,Male,outside US,College graduate or more,3,95,88,4.5,1600,49,3
+1383,Female,outside US,Some college/university,40,85,22,2.83,800,48,4
+1389,Female,outside US,Some college/university,35,83,46,2.17,2000,60,5
+1397,Male,outside US,less.than.hs,2,74,61,2.75,2200,42,4
+1398,Male,outside US,less.than.hs,13,97,43,2.5,1500,48,5
+1399,Female,outside US,less.than.hs,48,79,40,2.75,1200,22,5
+1401,Female,outside US,High school graduate,40,79,59,3.33,1500,55,1
+1402,Male,outside US,College graduate or more,18,65,81,2.33,2200,51,5
+1406,Female,outside US,High school graduate,35,59,71,2.67,2200,60,4
+1408,Female,outside US,College graduate or more,13,28,5,2.42,550,50,5
+1412,Female,outside US,less.than.hs,35,11,3,1.17,800,20,4
+1415,Female,outside US,less.than.hs,22,46,25,1.9,1500,31,4
+1424,Male,outside US,less.than.hs,22,41,31,2.9,2000,57,4
+1426,Female,outside US,High school graduate,22,5,20,2.08,160,49,3
+1430,Female,outside US,College graduate or more,3,67,37,2.67,2000,60,4
+1434,Female,outside US,less.than.hs,30,91,32,2.67,1400,34,5
+1442,Male,outside US,Some college/university,3,97,85,2.83,2500,56,4
+1447,Male,outside US,less.than.hs,15,33,11,1.08,1400,39,5
+1451,Male,outside US,College graduate or more,48,88,82,2.83,1500,42,4
+1455,Male,outside US,High school graduate,13,25,50,2,2300,39,2
+1462,Female,outside US,High school graduate,18,60,20,2.33,640,56,5
+1467,Male,outside US,Some college/university,22,85,97,3.41,2000,52,5
+1470,Female,outside US,College graduate or more,35,97,79,4.17,2500,42,2
+1489,Female,outside US,College graduate or more,22,87,70,2.33,750,44,4
+1505,Male,outside US,Some college/university,51,74,63,3.33,1280,42,3
+1508,Male,outside US,College graduate or more,2,94,32,3.08,2400,50,5
+1512,Male,outside US,College graduate or more,8,35,41,2.17,900,39,3
+1517,Male,outside US,College graduate or more,40,71,59,1.83,750,51,5
+1538,Male,outside US,College graduate or more,13,82,43,3.95,2000,62,5
+1541,Male,outside US,Some college/university,3,87,84,1.42,2000,51,4
+1542,Female,outside US,High school graduate,13,57,70,2.5,500,39,3
+1555,Female,outside US,College graduate or more,35,89,76,3.92,2600,78,4
+1565,Male,outside US,less.than.hs,49,59,31,1.75,1300,26,3
+1571,Male,outside US,less.than.hs,35,13,32,0.92,1475,39,5
+1572,Male,outside US,High school graduate,12,41,49,2,1000,22,5
+1577,Male,outside US,Some college/university,18,63,47,2.5,1700,56,4
+1582,Male,outside US,less.than.hs,36,66,57,2.08,2350,44,5
+1585,Female,outside US,Some college/university,35,55,87,3.6,300,34,2
+1586,Female,outside US,College graduate or more,3,61,20,2.6,1300,38,3
+1587,Male,outside US,High school graduate,3,78,66,2.92,1710,51,3
+1588,Male,outside US,College graduate or more,18,31,18,2.09,1600,26,5
+1589,Male,outside US,College graduate or more,30,74,62,3.1,1200,45,5
+1590,Female,outside US,College graduate or more,14,93,98,4,2300,49,3
+1592,Female,outside US,College graduate or more,35,86,61,3.5,900,48,4
+1603,Male,outside US,Some college/university,36,61,45,3.33,2900,46,4
+1604,Female,outside US,Some college/university,44,82,65,3.9,2000,57,3
+1617,Female,outside US,High school graduate,18,62,37,2.83,1300,38,5
+1619,Female,outside US,High school graduate,30,41,29,1.17,1200,53,5
+1621,Male,outside US,High school graduate,18,39,35,2.67,2200,64,4
+1622,Male,outside US,College graduate or more,18,71,70,2.75,800,50,4
+1623,Female,outside US,Some college/university,51,71,40,2.5,600,50,5
+1628,Male,outside US,less.than.hs,8,5,13,1.7,1400,38,4
+1629,Male,outside US,High school graduate,13,79,25,1.8,1200,39,3
+1630,Female,outside US,Some college/university,44,37,49,2.5,2500,42,5
+1640,Male,outside US,less.than.hs,3,47,17,1.6,1200,50,5
+1642,Male,outside US,less.than.hs,3,77,25,2.5,550,49,2
+1643,Female,outside US,less.than.hs,44,26,8,2.9,900,53,4
+1646,Female,outside US,College graduate or more,35,55,87,2.8,1000,31,4
+1653,Male,outside US,less.than.hs,35,39,45,2.83,1700,37,4
+1655,Female,outside US,Some college/university,51,63,11,2.18,1200,49,5
+1665,Female,outside US,less.than.hs,40,75,57,3.25,200,58,2
+1674,Female,outside US,College graduate or more,13,84,87,4,1650,50,2
+1677,Female,outside US,College graduate or more,44,99,87,4,2000,44,4
+1732,Male,outside US,College graduate or more,3,99,91,4,2200,18,4
+1736,Female,outside US,College graduate or more,3,94,91,4,2100,50,5
+1797,Female,outside US,College graduate or more,51,78,35,2.67,2500,38,4
+1801,Male,outside US,less.than.hs,1,12,49,3.2,900,20,3
+1803,Female,outside US,Some college/university,3,54,70,2.27,1600,55,3
+1807,Female,outside US,Some college/university,48,70,46,4,600,34,3
+1808,Male,outside US,Some college/university,8,84,94,3.3,1400,51,4
+1809,Female,outside US,College graduate or more,36,82,53,2.8,1800,42,3
+1810,Female,outside US,College graduate or more,40,92,99,3.8,1200,42,4
+1811,Female,outside US,College graduate or more,3,93,66,4,2500,58,4
+1812,Male,outside US,College graduate or more,22,97,84,3.9,1280,38,2
+1815,Female,outside US,College graduate or more,36,70,53,3.08,2200,42,4
+1817,Female,outside US,Some college/university,22,54,41,3.8,600,42,3
+1818,Female,outside US,Some college/university,3,61,35,3.2,600,49,4
+1829,Male,outside US,High school graduate,8,41,15,2.3,1000,50,3
+1831,Male,outside US,College graduate or more,14,14,15,2.1,1300,58,2
+1835,Female,outside US,less.than.hs,35,9,6,3.8,1300,34,4
+1839,Female,outside US,Some college/university,44,99,75,3.3,500,50,4
+1840,Male,outside US,College graduate or more,35,96,41,2.6,2000,46,2
+1848,Male,outside US,Some college/university,14,16,31,2.17,2800,51,5
+1849,Male,outside US,Some college/university,3,48,31,3.1,1500,38,4
+1853,Male,outside US,less.than.hs,3,50,41,2.4,600,37,3
+1854,Female,outside US,Some college/university,30,67,45,1.82,1680,42,4
+1855,Male,outside US,High school graduate,35,82,61,2.58,2000,50,4
+1856,Male,outside US,College graduate or more,3,82,41,2.08,1000,49,4
+1857,Male,outside US,College graduate or more,8,51,18,3,1500,62,4
+1861,Female,outside US,College graduate or more,35,65,87,3.6,600,42,3
+1862,Female,outside US,Some college/university,35,97,84,3.5,300,55,5
+1864,Female,outside US,College graduate or more,3,94,61,4,2000,50,4
+1865,Male,outside US,High school graduate,40,66,70,3.3,2500,50,4
+1866,Male,outside US,Some college/university,44,82,65,2.7,1000,38,4
+1869,Male,outside US,Some college/university,22,9,11,2.3,1100,45,3
+1870,Male,outside US,College graduate or more,3,74,35,2.4,2500,34,4
+1871,Male,outside US,College graduate or more,30,47,41,2.42,1600,46,5
+1878,Female,outside US,College graduate or more,3,84,61,4,2392,34,2
+1882,Female,outside US,Some college/university,3,73,70,3.25,1200,56,5
+1893,Male,outside US,College graduate or more,35,41,57,2.92,1500,49,3
+1896,Female,outside US,College graduate or more,8,46,45,2.6,1500,38,5
+1897,Female,outside US,High school graduate,48,86,49,2.8,600,20,5
+1898,Female,outside US,less.than.hs,5,50,70,3.5,1200,42,4
+1902,Female,outside US,Some college/university,48,36,62,2.6,2000,55,2
+1904,Female,outside US,less.than.hs,5,82,41,3.9,2000,41,3
+1905,Female,outside US,College graduate or more,36,97,97,3.7,2350,42,5
+1906,Female,outside US,High school graduate,3,48,79,3.7,1472,26,4
+1915,Female,outside US,Some college/university,3,77,54,2.5,1000,62,4
+1923,Female,outside US,High school graduate,7,65,75,3,2600,55,5
+1924,Male,outside US,College graduate or more,6,32,20,3.3,1900,53,3
+1932,Male,outside US,Some college/university,40,70,75,3.8,2000,46,4
+1933,Female,outside US,College graduate or more,44,63,54,2.6,1800,53,5
+1941,Male,outside US,less.than.hs,35,15,17,2.7,2500,39,1
+1947,Male,outside US,College graduate or more,35,8,54,3.2,1100,23,3
+1961,Male,outside US,College graduate or more,3,96,94,3.9,500,46,4
+1968,Male,outside US,College graduate or more,22,60,70,2,1900,40,5
+1970,Male,outside US,High school graduate,35,99,76,2.92,2600,42,4
+1971,Male,outside US,High school graduate,4,26,0,1.79,1000,36,4
+1972,Female,outside US,College graduate or more,44,25,32,0.83,600,53,4
+1974,Male,outside US,Some college/university,22,99,50,2.67,700,23,3
+1976,Female,outside US,Some college/university,22,79,79,3.33,2000,34,5
+1981,Male,outside US,College graduate or more,40,69,80,3.33,500,46,1
+1984,Female,outside US,less.than.hs,40,3,2,2.3,800,37,5
+1986,Male,outside US,College graduate or more,48,58,86,3.14,400,39,3
+1992,Male,outside US,High school graduate,5,69,44,2.58,1400,39,5
+1993,Male,outside US,Some college/university,3,97,70,2.5,1200,30,4
+1994,Female,outside US,High school graduate,13,74,29,3.33,1200,53,4
+1995,Female,outside US,High school graduate,2,90,70,4,1600,42,4
+1998,Male,outside US,High school graduate,3,64,21,1.5,2000,29,4
+2003,Female,outside US,High school graduate,22,63,63,2.58,1600,50,2
+2007,Female,outside US,less.than.hs,13,11,32,1.5,1650,34,3
+2009,Male,outside US,Some college/university,35,99,64,3.34,550,69,4
+2012,Female,outside US,less.than.hs,8,43,31,1.83,400,23,4
+2013,Female,outside US,Some college/university,30,51,61,2.33,1600,67,4
+2014,Male,outside US,Some college/university,30,73,60,3.08,2800,48,3
+2020,Female,outside US,less.than.hs,44,77,46,3.17,2000,34,4
+2026,Male,outside US,High school graduate,8,96,34,3.31,2000,72,4
+2028,Male,outside US,less.than.hs,13,18,18,2,1600,20,5
+2030,Female,outside US,High school graduate,22,66,37,2.5,1200,42,4
+2033,Female,outside US,Some college/university,40,80,73,2.67,1200,34,5
+2035,Male,outside US,less.than.hs,18,30,44,0.5,1200,23,2
+2043,Male,outside US,High school graduate,3,26,20,2.5,1250,55,5
+2047,Female,outside US,High school graduate,48,95,67,2.67,2100,44,4
+2054,Male,outside US,Some college/university,35,99,79,4.17,600,72,5
+2055,Female,outside US,Some college/university,6,83,79,3.17,1200,34,4
+2056,Female,outside US,High school graduate,30,34,32,3.17,1200,53,4
+2059,Female,outside US,less.than.hs,30,49,22,2.83,1200,49,5
+2067,Male,outside US,Some college/university,1,87,84,3,2800,37,5
+2068,Male,outside US,College graduate or more,35,96,89,3,650,56,3
+2071,Female,outside US,less.than.hs,22,14,22,2,1500,44,4
+2076,Female,outside US,College graduate or more,30,79,62,3.67,1500,40,4
+2078,Female,outside US,High school graduate,3,40,50,1.58,1600,53,5
+2087,Female,outside US,less.than.hs,13,46,34,2.83,1500,53,5
+2094,Male,outside US,High school graduate,8,41,44,2.5,1200,29,2
+2099,Female,outside US,College graduate or more,31,67,46,2.67,600,52,3
+2100,Female,outside US,Some college/university,31,77,37,3.17,2300,57,5
+2101,Male,outside US,High school graduate,13,31,4,0.58,1300,31,4
+2104,Female,outside US,High school graduate,35,87,70,3.58,1880,52,4
+2105,Female,outside US,High school graduate,22,97,55,2.67,2500,49,4
+2107,Female,outside US,College graduate or more,8,44,44,2.67,1376,53,1
+2108,Female,outside US,Some college/university,2,51,16,1.83,2400,57,4
+2110,Female,outside US,less.than.hs,1,57,70,2.33,1600,49,4
+2114,Female,outside US,less.than.hs,13,89,62,3,1860,39,4
+2117,Male,outside US,Some college/university,3,54,46,2.33,1500,42,4
+2119,Female,outside US,less.than.hs,3,73,44,2.92,1200,53,3
+2124,Female,outside US,High school graduate,30,99,67,3.08,1800,55,5
+2129,Female,outside US,High school graduate,44,92,54,2.83,1200,55,4
+2130,Male,outside US,less.than.hs,1,57,32,0.75,500,42,5
+2135,Male,outside US,College graduate or more,1,78,85,2.34,2000,62,5
+2136,Male,outside US,High school graduate,40,18,22,2.25,1600,40,5
+2137,Female,outside US,less.than.hs,22,71,81,3.67,1200,44,2
+2139,Male,outside US,less.than.hs,40,83,18,2,2000,49,4
+2145,Male,outside US,Some college/university,35,70,58,3.3,800,46,4
+2148,Female,outside US,less.than.hs,11,16,54,1.83,1200,34,5
+2149,Male,outside US,College graduate or more,7,50,84,3.36,700,42,4
+2150,Female,outside US,less.than.hs,35,6,13,1.6,550,56,3
+2151,Male,outside US,Some college/university,41,29,65,1.1,1100,18,3
+2153,Female,outside US,less.than.hs,35,6,31,2.8,1500,31,3
+2154,Female,outside US,High school graduate,3,8,3,2.3,1109,38,4
+2157,Female,outside US,College graduate or more,3,78,46,2.9,800,26,4
+2159,Male,outside US,Some college/university,31,29,79,2.7,2000,55,5
+2160,Female,outside US,less.than.hs,22,74,91,3,1000,42,4
+2162,Female,outside US,College graduate or more,35,65,87,3.6,1200,50,4
+2166,Female,outside US,College graduate or more,48,97,97,3.8,400,23,3
+2170,Female,outside US,less.than.hs,3,64,18,1.8,900,31,5
+2171,Female,outside US,College graduate or more,9,94,87,4,1850,57,4
+2172,Male,outside US,College graduate or more,3,77,52,3.58,800,49,1
+2173,Male,outside US,Some college/university,10,99,70,3.7,450,24,3
+2175,Female,outside US,College graduate or more,10,99,94,4,1900,53,4
+2181,Male,outside US,High school graduate,22,27,61,1.7,1500,39,2
+2183,Male,outside US,High school graduate,22,94,47,2.75,1900,53,4
+2185,Male,outside US,Some college/university,14,74,74,2.58,900,22,3
+2186,Female,outside US,Some college/university,30,74,37,2.18,1400,42,3
+2195,Female,outside US,High school graduate,48,80,85,3.5,1100,57,5
+2206,Female,outside US,High school graduate,44,40,54,2.67,2250,44,3
+2210,Male,outside US,less.than.hs,1,51,29,2.75,920,32,4
+2219,Female,outside US,Some college/university,36,46,53,1.83,1500,42,5
+2220,Female,outside US,Some college/university,3,86,44,2.75,1900,42,4
+2224,Female,outside US,College graduate or more,35,88,40,4.17,1400,78,4
+2228,Male,outside US,Some college/university,48,87,60,2.67,2500,78,4
+2230,Male,outside US,High school graduate,3,79,43,2.33,1600,37,5
+2231,Male,outside US,College graduate or more,35,57,55,2.52,1600,53,4
+2235,Male,outside US,High school graduate,3,21,84,1.33,2000,34,2
+2241,Male,outside US,College graduate or more,22,99,74,4.25,240,42,4
+2242,Male,outside US,Some college/university,8,9,28,1.3,1000,42,1
+2249,Male,outside US,High school graduate,35,97,79,4,800,54,4
+2251,Male,outside US,High school graduate,18,79,53,1.83,900,53,5
+2252,Male,outside US,Some college/university,22,46,49,2.75,1200,30,3
+2253,Male,outside US,College graduate or more,18,96,94,3.3,1230,40,3
+2259,Female,outside US,College graduate or more,48,97,84,4.33,1000,42,5
+2261,Female,outside US,less.than.hs,13,28,21,2.67,1400,53,5
+2267,Female,outside US,College graduate or more,8,90,66,3.4,2040,57,5
+2268,Male,outside US,less.than.hs,23,65,51,2.54,1000,26,4
+2273,Male,outside US,College graduate or more,8,80,58,2.66,500,49,5
+2279,Female,outside US,less.than.hs,35,77,60,2.5,2300,53,4
+2281,Female,outside US,High school graduate,21,28,27,2.17,2000,55,5
+2282,Female,outside US,less.than.hs,35,18,50,0.5,2000,34,3
+2283,Male,outside US,Some college/university,11,92,61,2.2,1100,39,4
+2286,Male,outside US,Some college/university,51,99,98,3.28,1100,56,4
+2287,Male,outside US,High school graduate,6,34,6,2.5,1700,28,4
+2288,Male,outside US,High school graduate,13,21,54,2.45,1200,39,5
+2289,Female,outside US,High school graduate,3,13,8,1.75,1200,38,4
+2291,Female,outside US,Some college/university,3,70,75,4,2500,60,4
+2299,Female,outside US,Some college/university,5,34,37,3,780,51,2
+2302,Female,outside US,less.than.hs,3,36,46,3,2000,37,3
+2303,Male,outside US,High school graduate,22,71,55,3.75,1400,67,4
+2305,Male,outside US,College graduate or more,3,71,70,2.83,2800,40,4
+2307,Male,outside US,College graduate or more,22,89,93,2.58,2400,56,3
+2310,Female,outside US,Some college/university,8,11,18,2.33,400,38,5
+2313,Female,outside US,High school graduate,22,57,50,2.5,2500,53,5
+2315,Male,outside US,College graduate or more,23,92,56,4.5,2000,50,4
+2316,Male,outside US,College graduate or more,8,87,55,4.16,2000,57,5
+2320,Female,outside US,High school graduate,13,74,37,2.42,2000,53,5
+2327,Female,outside US,less.than.hs,44,28,32,2,1200,42,3
+2331,Female,outside US,less.than.hs,3,5,15,3.1,2400,42,4
+2332,Male,outside US,Some college/university,40,86,75,3,2400,46,5
+2333,Male,outside US,Some college/university,3,74,41,1.75,2500,23,4
+2336,Male,outside US,High school graduate,6,90,87,2.6,1000,16,4
+2339,Male,outside US,less.than.hs,2,57,67,2,1500,44,4
+2341,Male,outside US,High school graduate,48,79,76,3.5,800,42,3
+2342,Female,outside US,High school graduate,22,51,21,1.75,600,39,4
+2343,Male,outside US,less.than.hs,18,10,18,0.83,2200,34,5
+2348,Male,outside US,High school graduate,8,98,90,3.52,2800,51,5
+2351,Female,outside US,less.than.hs,35,62,22,1.5,2200,67,4
+2352,Female,outside US,less.than.hs,22,27,17,1.4,2200,38,3
+2353,Female,outside US,College graduate or more,30,80,47,1.58,1200,53,3
+2361,Female,outside US,High school graduate,22,64,83,2.5,1800,34,4
+2363,Male,outside US,High school graduate,3,71,32,2.92,2000,34,2
+2364,Male,outside US,Some college/university,44,97,98,4,500,50,3
+2368,Male,outside US,less.than.hs,22,79,43,3.33,1270,58,5
+2369,Female,outside US,less.than.hs,2,32,40,2.92,1100,78,5
+2370,Female,outside US,College graduate or more,6,57,20,2.17,1200,23,4
+2379,Male,outside US,College graduate or more,35,83,80,4,400,16,4
+2382,Male,outside US,less.than.hs,35,97,67,3.92,2500,56,4
+2391,Male,outside US,College graduate or more,22,83,73,2.5,2080,53,2
+2392,Female,outside US,Some college/university,3,84,84,3.08,550,34,4
+2394,Male,outside US,High school graduate,13,65,41,2.1,700,16,3
+2395,Female,outside US,High school graduate,22,14,18,2.1,1300,57,3
+2399,Female,outside US,less.than.hs,30,65,65,2.8,2100,37,4
+2400,Male,outside US,College graduate or more,14,62,14,2.43,2400,50,4
+2401,Male,outside US,Some college/university,35,86,86,4.33,2200,72,4
+2402,Female,outside US,less.than.hs,10,83,70,1.83,1000,38,2
+2405,Male,outside US,High school graduate,37,51,12,2.2,2200,38,3
+2406,Male,outside US,less.than.hs,8,57,32,1.58,1600,33,3
+2409,Female,outside US,High school graduate,44,97,84,3.1,2300,49,4
+2410,Female,outside US,High school graduate,13,33,13,1.58,2000,42,4
+2411,Female,outside US,less.than.hs,30,94,62,3.08,1150,23,3
+2416,Male,outside US,College graduate or more,40,68,40,2.25,1600,39,5
+2432,Female,outside US,less.than.hs,13,51,76,3.17,1833,57,4
+2433,Male,outside US,College graduate or more,23,44,54,2.07,1600,53,5
+2461,Female,outside US,College graduate or more,35,98,99,4,2300,59,3
+2462,Female,outside US,High school graduate,44,95,50,2.25,2000,57,5
+2464,Male,outside US,College graduate or more,13,70,15,2.4,1200,20,4
+2466,Male,outside US,College graduate or more,22,93,82,2.93,1100,66,5
+2471,Male,outside US,Some college/university,18,86,57,3.58,2500,51,4
+2483,Female,outside US,Some college/university,44,79,76,4.17,500,43,5
+2486,Female,outside US,High school graduate,35,64,35,2.7,2000,57,4
+2491,Male,outside US,College graduate or more,3,77,29,2.67,1500,42,3
+2496,Female,outside US,Some college/university,23,69,32,3.17,1500,42,5
+2500,Female,outside US,High school graduate,3,98,88,3.67,2500,53,4
+2508,Male,outside US,less.than.hs,22,35,26,1.33,2000,28,4
+2520,Male,outside US,High school graduate,8,46,77,2.67,2500,23,4
+2523,Female,outside US,Some college/university,35,62,55,3.08,1200,34,4
+2524,Male,outside US,High school graduate,8,54,57,1.92,1500,49,4
+2529,Male,outside US,Some college/university,22,54,3,3.08,2000,49,5
+2530,Female,outside US,Some college/university,10,63,67,3.33,2500,57,5
+2538,Female,outside US,less.than.hs,30,77,57,2,2200,52,2
+2545,Male,outside US,less.than.hs,1,13,37,0.42,2500,42,3
+2549,Male,outside US,High school graduate,44,89,67,3.5,2000,52,1
+2551,Female,outside US,less.than.hs,22,26,20,1.5,1300,52,5
+2553,Male,outside US,High school graduate,48,73,16,1.08,2128,40,4
+2555,Female,outside US,High school graduate,15,87,67,1.09,1400,34,5
+2563,Male,outside US,Some college/university,30,96,65,3.67,1500,52,5
+2564,Male,outside US,High school graduate,35,88,63,2.83,2000,67,1
+2566,Male,outside US,High school graduate,40,97,88,4,2400,51,4
+2568,Female,outside US,Some college/university,51,99,62,4.33,1490,43,3
+2569,Female,outside US,less.than.hs,35,71,29,2,1400,55,5
+2575,Female,outside US,Some college/university,30,95,62,3.67,500,42,4
+2580,Female,outside US,High school graduate,51,56,94,3.7,2773,49,5
+2581,Female,outside US,less.than.hs,14,36,28,3.1,2000,52,4
+2582,Male,outside US,less.than.hs,1,69,61,2.5,2000,34,4
+2584,Male,outside US,College graduate or more,44,94,55,2.21,580,39,1
+2586,Female,outside US,Some college/university,23,94,51,2.5,2200,52,3
+2587,Female,outside US,High school graduate,35,88,20,2.67,2200,52,5
+2594,Female,outside US,High school graduate,18,31,84,2.83,1200,42,4
+2595,Female,outside US,High school graduate,35,43,22,1.67,2500,53,5
+2600,Female,outside US,Some college/university,30,82,80,4,2000,56,4
+2609,Female,outside US,less.than.hs,44,99,87,4.33,2200,34,5
+2613,Female,outside US,less.than.hs,3,41,49,3.29,1800,60,5
+2618,Female,outside US,less.than.hs,13,34,14,1.75,2000,52,5
+2622,Female,outside US,College graduate or more,18,86,79,2.83,2600,52,4
+2623,Female,outside US,Some college/university,48,83,62,3.5,1200,42,3
+2624,Female,outside US,College graduate or more,30,88,79,3,2000,67,5
+2625,Female,outside US,Some college/university,22,99,71,2.83,800,23,4
+2626,Female,outside US,less.than.hs,35,35,16,1.5,1200,53,3
+2630,Female,outside US,College graduate or more,30,54,22,3.33,1000,31,5
+2636,Male,outside US,College graduate or more,40,93,41,2.75,1700,53,5
+2637,Female,outside US,College graduate or more,22,82,74,3.33,1500,53,5
+2638,Female,outside US,less.than.hs,3,26,41,2.58,1200,48,4
+2641,Female,outside US,less.than.hs,40,51,54,2,1600,42,1
+2649,Female,outside US,Some college/university,3,73,62,1.83,1890,38,3
+2650,Male,outside US,College graduate or more,35,89,56,2.5,1650,56,4
+2664,Female,outside US,College graduate or more,40,69,57,3.17,2400,57,4
+2665,Male,outside US,College graduate or more,40,74,37,1.33,2700,52,5
+2666,Male,outside US,High school graduate,22,99,97,3.17,1100,46,3
+2672,Female,outside US,High school graduate,40,87,54,3.33,2000,42,3
+2675,Female,outside US,Some college/university,44,71,16,2,1500,42,5
+2680,Male,outside US,less.than.hs,35,66,27,1.83,2000,39,3
+2682,Male,outside US,College graduate or more,13,58,77,1.75,550,26,2
+2685,Female,outside US,High school graduate,22,71,13,2.42,1000,34,4
+2687,Female,outside US,Some college/university,40,94,80,3.86,2400,53,4
+2692,Female,outside US,High school graduate,13,99,4,1.92,1500,38,5
+2693,Male,outside US,Some college/university,51,86,32,2.83,1800,78,1
+2703,Female,outside US,College graduate or more,5,28,40,1.67,1500,69,3
+2705,Female,outside US,High school graduate,35,49,68,3,1600,60,5
+2718,Female,outside US,less.than.hs,30,1,5,2.4,2320,38,4
+2719,Female,outside US,less.than.hs,22,47,32,2.83,1400,34,5
+2720,Female,outside US,less.than.hs,36,1,5,2.92,350,34,4
+2723,Female,outside US,High school graduate,22,82,59,2.83,800,45,3
+2724,Male,outside US,High school graduate,18,57,41,2.5,1800,53,4
+2732,Female,outside US,less.than.hs,3,73,86,2.5,2200,57,5
+2736,Male,outside US,High school graduate,22,95,82,3,2500,52,4
+2738,Female,outside US,Some college/university,30,83,67,3.08,1100,53,3
+2749,Male,outside US,Some college/university,44,47,57,1.17,1700,21,4
+2753,Female,outside US,Some college/university,44,83,41,2.83,1300,30,4
+2757,Female,outside US,High school graduate,3,73,67,3.14,2000,57,4
+2760,Female,outside US,less.than.hs,44,40,22,1.92,525,39,5
+2765,Female,outside US,Some college/university,22,92,57,3.33,2500,60,5
+2768,Female,outside US,High school graduate,51,54,61,3.67,2500,58,5
+2770,Female,outside US,College graduate or more,35,77,79,3,800,23,3
+2798,Male,outside US,High school graduate,44,53,37,2.6,1360,42,2
+2837,Male,outside US,College graduate or more,35,47,34,2.8,550,20,2
+2870,Male,outside US,High school graduate,7,97,87,4,2200,53,4
+2872,Male,outside US,less.than.hs,10,94,65,2.92,2000,46,4
+2878,Male,outside US,College graduate or more,14,99,84,4,1500,68,4
+2879,Female,outside US,less.than.hs,4,98,87,3.9,2700,55,4
+2881,Male,outside US,College graduate or more,23,82,23,3.58,1800,37,4
+2886,Female,outside US,Some college/university,22,61,73,1.67,940,23,5
+2889,Female,outside US,College graduate or more,3,74,58,3.8,2500,57,4
+2890,Female,outside US,College graduate or more,8,73,99,3.67,2700,34,4
+2894,Female,outside US,College graduate or more,48,36,66,2.6,1500,42,1
+2910,Female,outside US,College graduate or more,5,82,77,3.86,900,42,4
+2914,Male,outside US,less.than.hs,35,99,0,3.29,1000,44,4
+2922,Female,outside US,less.than.hs,35,65,34,2.5,2600,53,3
+2923,Male,outside US,Some college/university,31,74,71,3.4,1400,34,4
+2929,Female,outside US,less.than.hs,3,70,53,3.25,2300,42,4
+2930,Female,outside US,College graduate or more,40,65,53,3.5,2444,42,3
+2931,Female,outside US,High school graduate,8,95,70,2.67,1800,52,5
+2933,Male,outside US,Some college/university,3,95,73,2,2500,78,5
+2940,Male,outside US,College graduate or more,35,71,87,1,1200,59,1
+2953,Male,outside US,less.than.hs,22,36,58,1.9,1500,36,1
+2955,Male,outside US,Some college/university,18,41,8,3.3,2000,34,4
+2956,Female,outside US,Some college/university,40,47,20,1.67,400,45,3
+2961,Female,outside US,College graduate or more,1,44,43,3.08,2000,38,3
+2963,Female,outside US,High school graduate,3,80,60,2,900,34,3
+2995,Male,outside US,Some college/university,22,93,98,3.7,950,47,5
+2996,Female,outside US,less.than.hs,22,84,91,4,2583,41,3
+3006,Female,outside US,High school graduate,7,76,57,3.83,700,34,3
+3020,Male,outside US,High school graduate,35,98,66,4,2000,51,4
+3029,Female,outside US,High school graduate,51,91,76,3.83,800,37,3
+3043,Female,outside US,College graduate or more,13,56,6,0.7,1200,32,3
+3073,Male,outside US,High school graduate,8,0,0,2.64,1000,50,5
+3078,Male,outside US,High school graduate,30,98,98,2.8,1200,56,4
+3080,Male,outside US,High school graduate,8,36,36,2.71,1500,39,1
+3090,Female,outside US,High school graduate,30,61,44,3.17,800,78,3
+3099,Male,outside US,College graduate or more,35,66,97,2.43,1600,21,3
+3103,Female,outside US,High school graduate,13,26,44,1.75,700,42,3
+3106,Female,outside US,High school graduate,13,96,71,2.9,2500,37,5
+3108,Male,outside US,High school graduate,3,61,13,3.3,600,26,4
+3109,Female,outside US,College graduate or more,35,21,35,2.9,1800,34,4
+3113,Male,outside US,High school graduate,3,90,94,3.5,2500,51,4
+3119,Female,outside US,Some college/university,30,98,99,3.9,1500,34,5
+3121,Male,outside US,High school graduate,3,59,57,2.2,1600,24,4
+3122,Male,outside US,College graduate or more,41,56,31,2.8,400,39,4
+3124,Female,outside US,High school graduate,35,9,6,2.9,1500,38,5
+3131,Female,outside US,College graduate or more,30,6,61,3.6,1800,42,5
+3132,Female,outside US,College graduate or more,3,99,94,3.58,450,56,3
+3134,Male,outside US,Some college/university,8,32,41,2.9,1500,34,3
+3136,Male,outside US,College graduate or more,3,13,17,3.3,2000,46,4
+3138,Male,outside US,College graduate or more,18,61,61,2.4,1200,44,3
+3139,Male,outside US,High school graduate,35,51,31,3.5,2000,44,4
+3141,Female,outside US,High school graduate,3,57,79,3.45,1600,45,4
+3144,Male,outside US,College graduate or more,44,93,66,3.86,2680,50,4
+3153,Female,outside US,College graduate or more,15,97,54,3.8,1700,50,4
+3155,Male,outside US,College graduate or more,3,99,87,3.67,2800,39,4
+3165,Male,outside US,Some college/university,18,63,73,2.5,1500,51,4
+3167,Female,outside US,High school graduate,22,47,29,2,900,42,4
+3170,Male,outside US,High school graduate,8,99,94,4,1300,51,4
+3171,Female,outside US,Some college/university,44,6,54,2.5,1000,53,3
+3175,Female,outside US,Some college/university,8,57,70,2.7,1750,56,1
+3176,Male,outside US,High school graduate,5,86,70,2.6,1230,44,2
+3178,Male,outside US,Some college/university,35,64,63,2.86,1800,56,5
+3181,Female,outside US,High school graduate,48,56,31,3.6,1000,42,4
+3186,Male,outside US,Some college/university,18,9,32,1.17,2000,37,3
+3190,Male,outside US,College graduate or more,22,99,88,4.17,2000,50,3
+3191,Female,outside US,High school graduate,3,92,91,3.08,1400,53,4
+3192,Female,outside US,less.than.hs,40,5,13,1,1500,50,5
+3193,Male,outside US,Some college/university,4,28,84,3.3,1000,34,3
+3194,Female,outside US,High school graduate,3,90,62,3.9,1600,22,3
+3195,Female,outside US,College graduate or more,3,34,84,2.83,2000,42,4
+3198,Male,outside US,High school graduate,10,50,34,2.2,500,34,3
+3200,Female,outside US,High school graduate,48,59,41,2.6,1200,23,2
+3214,Male,outside US,High school graduate,14,51,49,3.3,2000,51,4
+3218,Male,outside US,College graduate or more,35,99,88,4.17,1200,51,4
+3221,Female,outside US,High school graduate,35,99,91,3.58,300,42,5
+3222,Male,outside US,High school graduate,22,99,81,3.8,1300,42,4
+3229,Female,outside US,High school graduate,30,76,70,3.08,2352,49,1
+3239,Male,outside US,Some college/university,4,94,84,3.7,1500,39,4
+3243,Male,outside US,Some college/university,22,0,0,3.07,200,64,3
+3244,Female,outside US,College graduate or more,48,82,99,3.9,2400,42,2
+3251,Male,outside US,High school graduate,16,70,75,2,2300,39,2
+3253,Female,outside US,Some college/university,48,84,87,3.8,850,16,3
+3257,Male,outside US,High school graduate,3,48,13,1.82,1800,56,4
+3261,Female,outside US,College graduate or more,2,12,14,1.43,900,69,5
+3267,Male,outside US,College graduate or more,30,65,16,0.92,1200,39,5
+3268,Male,outside US,Some college/university,51,99,84,4,1000,39,4
+3269,Female,outside US,College graduate or more,22,26,15,2.3,2200,32,5
+3270,Female,outside US,College graduate or more,3,57,61,3.67,2000,55,3
+3271,Male,outside US,less.than.hs,3,12,10,3.6,400,50,4
+3272,Female,outside US,College graduate or more,3,77,15,3.5,300,42,4
+3273,Female,outside US,High school graduate,40,99,99,4,600,42,4
+3281,Male,outside US,College graduate or more,16,37,41,2.2,800,39,3
+3283,Female,outside US,High school graduate,40,0,0,2.71,2000,57,5
+3286,Female,outside US,less.than.hs,8,51,79,2.5,2700,56,5
+3291,Female,outside US,less.than.hs,48,16,94,2.6,820,16,4
+3308,Male,outside US,High school graduate,35,46,41,2.6,1200,53,1
+5256,Female,outside US,College graduate or more,4,80,18,2.5,2500,30,4
+5258,Male,outside US,High school graduate,36,89,76,1.2,2200,33,4
+10,Female,United States,Some college/university,35,83,73,3.75,1100,42,5
+11,Female,United States,College graduate or more,8,71,86,2.83,850,53,4
+17,Female,United States,College graduate or more,8,85,34,3,1600,62,5
+23,Male,United States,Some college/university,30,25,22,1.5,2750,67,5
+26,Male,United States,College graduate or more,13,67,44,1.63,2500,67,4
+79,Female,United States,less.than.hs,40,68,84,3,600,31,3
+117,Female,United States,less.than.hs,31,64,18,2.33,1100,78,4
+121,Female,United States,Some college/university,13,9,22,1.92,1200,50,3
+128,Female,United States,High school graduate,30,21,18,2.43,900,39,1
+140,Female,United States,College graduate or more,48,89,62,4,2400,78,5
+143,Male,United States,less.than.hs,49,41,20,3.9,1200,50,4
+149,Female,United States,Some college/university,5,91,35,3.33,1400,30,4
+150,Female,United States,College graduate or more,3,99,60,4,1000,42,4
+151,Female,United States,less.than.hs,48,62,55,2.67,2500,55,4
+154,Female,United States,Some college/university,13,51,73,2.25,1700,53,4
+157,Female,United States,Some college/university,14,89,54,3.17,1200,53,5
+162,Female,United States,less.than.hs,2,28,18,2.92,1250,60,4
+168,Male,United States,Some college/university,44,59,37,2,520,60,4
+171,Female,United States,less.than.hs,22,79,31,2.67,1200,53,4
+172,Female,United States,less.than.hs,40,83,60,2.5,800,34,3
+175,Female,United States,less.than.hs,3,35,24,2.17,750,42,3
+182,Female,United States,College graduate or more,22,9,3,2.5,400,34,3
+183,Female,United States,less.than.hs,22,63,79,3,1000,42,4
+193,Female,United States,less.than.hs,14,34,31,1.58,2800,39,1
+199,Female,United States,less.than.hs,2,61,35,2.5,1400,39,4
+225,Female,United States,Some college/university,21,32,18,3.08,836,38,3
+226,Female,United States,High school graduate,3,40,29,3.5,2700,53,3
+233,Female,United States,Some college/university,13,94,49,4,2000,42,3
+235,Male,United States,less.than.hs,8,13,8,3,200,41,4
+239,Female,United States,Some college/university,44,59,58,2.21,1300,55,4
+263,Male,United States,less.than.hs,44,78,13,3.6,2040,20,1
+271,Female,United States,less.than.hs,44,38,25,2.08,1800,34,5
+293,Male,United States,less.than.hs,18,40,25,0.25,900,34,4
+294,Female,United States,less.than.hs,13,46,31,3.17,950,42,5
+303,Male,United States,less.than.hs,3,71,64,3.17,2000,39,5
+305,Male,United States,High school graduate,27,31,11,0.92,2400,51,4
+324,Female,United States,less.than.hs,5,64,35,3,1200,49,5
+329,Female,United States,Some college/university,8,67,9,3.25,2100,49,4
+336,Female,United States,Some college/university,30,21,4,1.5,860,49,4
+344,Female,United States,College graduate or more,35,82,49,3.17,1833,56,4
+346,Female,United States,High school graduate,22,61,84,3.5,1760,53,4
+391,Female,United States,less.than.hs,2,11,2,2.38,1800,39,4
+411,Male,United States,Some college/university,3,57,35,1.17,1200,53,4
+419,Female,United States,less.than.hs,40,51,40,1.5,1200,64,3
+427,Male,United States,College graduate or more,18,26,41,2,2000,34,1
+429,Female,United States,High school graduate,48,57,76,2.17,1700,42,1
+431,Male,United States,College graduate or more,35,47,21,2.36,2000,22,4
+435,Female,United States,Some college/university,13,87,50,2.83,500,39,2
+438,Female,United States,College graduate or more,30,51,22,2.75,1600,67,4
+439,Male,United States,High school graduate,22,21,47,2.08,1400,22,4
+444,Female,United States,less.than.hs,14,45,61,2.86,950,50,5
+447,Female,United States,less.than.hs,13,39,35,2.67,2100,57,5
+455,Female,United States,College graduate or more,35,45,65,3.43,1200,39,1
+458,Female,United States,High school graduate,2,40,40,3.08,1000,22,2
+459,Female,United States,College graduate or more,22,42,68,3,2000,56,5
+461,Female,United States,High school graduate,35,49,70,3,2000,53,5
+470,Female,United States,High school graduate,35,87,56,3.58,2000,72,3
+510,Male,United States,Some college/university,40,94,63,3.21,200,62,1
+512,Male,United States,less.than.hs,35,77,25,3.58,2800,51,4
+513,Male,United States,High school graduate,13,40,25,2.67,1000,37,4
+517,Female,United States,College graduate or more,48,91,59,3.67,2000,53,4
+546,Female,United States,less.than.hs,5,77,54,3.92,2500,69,3
+548,Male,United States,less.than.hs,13,31,22,1.67,500,53,4
+550,Female,United States,College graduate or more,8,99,71,3.5,1100,42,4
+556,Female,United States,High school graduate,40,15,40,2.67,500,35,4
+557,Female,United States,less.than.hs,13,22,6,2.08,1000,69,5
+588,Female,United States,High school graduate,18,86,76,1.5,700,50,5
+594,Male,United States,High school graduate,3,49,37,2.83,2043,55,5
+605,Male,United States,College graduate or more,35,80,29,2.5,2500,53,3
+613,Female,United States,less.than.hs,3,10,2,2.7,600,22,2
+636,Female,United States,Some college/university,44,54,70,2.33,2500,49,5
+652,Male,United States,Some college/university,35,44,56,2.67,2500,50,5
+659,Female,United States,High school graduate,13,51,46,1.75,2300,42,5
+663,Male,United States,College graduate or more,3,41,32,2.17,2000,53,4
+668,Male,United States,College graduate or more,6,71,57,1.58,1600,51,4
+681,Female,United States,less.than.hs,48,46,46,2.92,1800,66,4
+683,Female,United States,less.than.hs,13,94,68,3.67,1600,72,4
+685,Male,United States,College graduate or more,13,99,88,4.67,2500,67,2
+692,Female,United States,College graduate or more,44,84,0,3.64,1200,78,4
+706,Male,United States,less.than.hs,3,5,2,1,800,18,3
+713,Male,United States,High school graduate,1,45,52,1.79,1900,30,2
+751,Female,United States,less.than.hs,3,47,61,3.2,1280,42,4
+759,Male,United States,Some college/university,1,34,70,1.8,2400,33,4
+762,Female,United States,Some college/university,13,12,2,2.67,2300,31,4
+768,Female,United States,less.than.hs,40,1,1,2.8,1200,31,4
+781,Female,United States,less.than.hs,3,1,41,1.2,1533,56,4
+783,Female,United States,less.than.hs,30,36,20,3.3,1900,38,4
+784,Female,United States,less.than.hs,10,26,31,2.5,2000,55,4
+786,Female,United States,less.than.hs,30,15,2,1.7,2500,31,4
+787,Male,United States,less.than.hs,2,25,9,1.7,2000,44,5
+800,Male,United States,less.than.hs,22,3,3,2.3,1600,20,3
+801,Male,United States,College graduate or more,3,20,9,2.1,2500,38,5
+802,Female,United States,less.than.hs,35,20,6,3.5,1400,34,4
+828,Female,United States,less.than.hs,22,36,41,3.4,1600,42,4
+841,Male,United States,less.than.hs,30,29,65,1.6,900,28,4
+842,Male,United States,High school graduate,8,51,20,1.6,1800,33,4
+853,Male,United States,Some college/university,39,61,41,2.67,1350,42,4
+863,Female,United States,High school graduate,18,66,70,2.25,1400,23,4
+870,Female,United States,Some college/university,22,92,81,3.58,2400,62,5
+874,Male,United States,High school graduate,18,67,18,2.25,1500,29,4
+878,Female,United States,Some college/university,14,41,27,1.55,2800,27,5
+880,Female,United States,Some college/university,48,66,63,3,450,69,4
+881,Female,United States,less.than.hs,23,21,23,2.4,2000,34,3
+883,Male,United States,less.than.hs,26,23,61,1.5,1600,29,4
+885,Male,United States,less.than.hs,22,63,95,2.8,2700,55,4
+891,Female,United States,less.than.hs,3,73,38,2.79,1480,49,5
+893,Female,United States,less.than.hs,3,65,31,2.17,1800,42,4
+907,Female,United States,less.than.hs,13,71,35,2.17,1200,42,3
+908,Female,United States,High school graduate,35,69,57,3,1000,53,4
+916,Female,United States,College graduate or more,30,37,49,1.42,1760,34,4
+919,Female,United States,High school graduate,3,71,76,3.33,2080,58,5
+921,Female,United States,College graduate or more,22,86,88,3.08,2200,69,5
+924,Male,United States,College graduate or more,18,6,20,1.67,1600,51,4
+926,Male,United States,College graduate or more,18,8,27,0.5,2500,29,5
+927,Female,United States,less.than.hs,22,54,16,2.33,1800,44,4
+932,Male,United States,less.than.hs,40,26,31,1.8,1200,33,4
+938,Male,United States,less.than.hs,35,50,37,1.9,1000,60,3
+945,Male,United States,High school graduate,4,75,31,2.4,1200,39,5
+949,Female,United States,High school graduate,13,77,55,2.83,400,38,1
+953,Female,United States,less.than.hs,2,4,18,1.25,800,38,3
+956,Female,United States,less.than.hs,13,7,9,3.59,1250,38,1
+965,Female,United States,less.than.hs,3,28,37,2.5,1352,39,4
+970,Female,United States,less.than.hs,30,56,37,3,1200,42,3
+975,Male,United States,less.than.hs,6,12,4,2.6,1200,29,5
+978,Female,United States,less.than.hs,31,34,32,1.5,1600,38,4
+980,Female,United States,College graduate or more,40,20,40,1.83,1650,34,4
+983,Male,United States,High school graduate,35,92,70,2.83,2000,39,3
+985,Female,United States,less.than.hs,13,29,20,3.09,2000,26,5
+997,Female,United States,less.than.hs,2,11,46,1.58,1120,42,1
+1017,Female,United States,less.than.hs,35,77,35,2.67,1600,55,4
+1026,Female,United States,less.than.hs,18,77,50,2.5,1300,38,4
+1027,Female,United States,High school graduate,35,92,50,3.5,2000,62,2
+1028,Female,United States,College graduate or more,8,41,37,3.17,500,38,5
+1030,Female,United States,High school graduate,18,71,47,2.83,1000,57,3
+1031,Female,United States,less.than.hs,40,87,9,1.67,1000,42,4
+1037,Male,United States,High school graduate,18,35,29,2.17,1500,49,3
+1044,Male,United States,College graduate or more,7,57,79,3.3,1200,53,3
+1045,Female,United States,less.than.hs,13,35,41,2.17,1700,50,4
+1048,Male,United States,High school graduate,22,33,18,2.08,1450,50,4
+1062,Female,United States,Some college/university,2,83,29,2.83,2400,52,5
+1066,Female,United States,High school graduate,14,73,73,2.33,2400,52,4
+1075,Female,United States,Some college/university,40,74,20,2.83,1600,44,4
+1081,Male,United States,Some college/university,22,99,54,3.33,500,58,3
+1084,Female,United States,College graduate or more,3,61,62,2.58,2000,38,4
+1085,Female,United States,less.than.hs,40,80,54,2.83,464,50,4
+1122,Male,United States,less.than.hs,35,54,40,2.5,1400,34,4
+1135,Female,United States,less.than.hs,5,70,41,3.5,2080,56,5
+1142,Female,United States,High school graduate,30,51,54,1.17,1800,53,5
+1143,Female,United States,High school graduate,3,25,50,2.75,2800,49,4
+1154,Female,United States,Some college/university,3,94,43,4.08,1900,66,4
+1157,Male,United States,College graduate or more,22,23,61,3.5,2000,53,4
+1166,Male,United States,High school graduate,3,92,37,2.08,2000,42,4
+1188,Female,United States,Some college/university,40,90,85,2.9,1600,42,5
+1241,Female,United States,less.than.hs,36,77,5,3.9,1100,52,1
+1252,Female,United States,less.than.hs,3,2,1,1.2,1200,34,4
+1253,Male,United States,College graduate or more,14,53,34,2.4,1000,23,3
+1258,Male,United States,less.than.hs,14,41,8,3.3,2200,33,4
+1262,Male,United States,less.than.hs,35,1,20,2.6,900,34,3
+1263,Male,United States,less.than.hs,22,1,79,2.1,500,55,1
+1265,Male,United States,High school graduate,49,41,3,3.6,2400,26,4
+1266,Male,United States,High school graduate,45,21,1,1.8,2000,39,4
+1267,Female,United States,less.than.hs,40,10,2,3.36,500,50,5
+1283,Male,United States,less.than.hs,1,36,8,2.8,2000,39,4
+1293,Male,United States,less.than.hs,4,1,1,1.6,500,42,4
+1295,Female,United States,less.than.hs,51,47,79,1.8,900,31,4
+1301,Female,United States,less.than.hs,13,70,31,3.33,1800,67,4
+1303,Female,United States,less.than.hs,6,98,99,4,1584,66,4
+1308,Male,United States,College graduate or more,35,90,66,4,2000,42,1
+1317,Female,United States,less.than.hs,14,74,49,2.75,2000,51,5
+1320,Female,United States,less.than.hs,40,64,40,2.17,2500,60,3
+1347,Male,United States,Some college/university,14,82,55,2.5,2400,55,4
+1356,Male,United States,College graduate or more,36,85,29,3,2500,70,5
+1359,Female,United States,less.than.hs,2,80,66,3.25,2075,34,3
+1360,Female,United States,High school graduate,3,9,10,2.9,1600,38,3
+1364,Male,United States,less.than.hs,8,63,47,2,1600,29,4
+1367,Male,United States,less.than.hs,13,56,43,1.67,1800,49,4
+1369,Male,United States,less.than.hs,13,88,68,2.67,1000,42,4
+1370,Male,United States,High school graduate,13,94,54,2.83,1800,42,5
+1378,Female,United States,High school graduate,30,63,32,2.42,800,58,3
+1380,Male,United States,less.than.hs,35,40,2,1.08,2000,24,3
+1381,Female,United States,Some college/university,35,59,20,2.75,2300,42,4
+1390,Male,United States,less.than.hs,36,51,37,3.17,2100,32,4
+1393,Male,United States,High school graduate,22,45,54,2.02,1120,34,3
+1407,Male,United States,College graduate or more,35,18,73,1.58,2500,35,5
+1409,Male,United States,less.than.hs,13,22,25,2.08,850,34,2
+1427,Female,United States,College graduate or more,1,5,1,3.3,500,34,3
+1428,Female,United States,College graduate or more,35,95,67,3.17,700,42,4
+1429,Male,United States,less.than.hs,14,31,20,1.33,2300,39,4
+1438,Female,United States,High school graduate,1,74,22,2.5,2000,57,5
+1439,Male,United States,College graduate or more,30,88,59,4.33,400,78,4
+1446,Male,United States,High school graduate,13,99,88,4.33,2400,44,5
+1448,Male,United States,Some college/university,7,88,88,4.33,1500,53,4
+1456,Female,United States,College graduate or more,35,77,67,1.25,1000,50,4
+1458,Female,United States,less.than.hs,13,46,24,2.25,500,42,5
+1461,Female,United States,High school graduate,30,74,71,2.67,1090,56,3
+1463,Female,United States,less.than.hs,13,54,50,1.82,1200,56,3
+1466,Male,United States,less.than.hs,40,7,1,0.67,1800,29,3
+1482,Female,United States,College graduate or more,30,71,1,2.9,1700,53,5
+1490,Female,United States,High school graduate,3,61,57,2.17,2200,42,4
+1494,Male,United States,Some college/university,2,66,35,2,1300,62,4
+1501,Female,United States,College graduate or more,44,88,32,2.08,1900,50,5
+1503,Female,United States,College graduate or more,30,26,22,2,2100,53,5
+1510,Female,United States,High school graduate,18,74,22,2.17,2500,58,4
+1521,Female,United States,less.than.hs,3,99,46,3.5,2000,44,3
+1522,Female,United States,Some college/university,51,37,67,2.92,1000,55,3
+1526,Male,United States,Some college/university,44,89,57,2.31,1800,53,1
+1529,Male,United States,less.than.hs,18,1,7,0.67,1600,34,5
+1530,Female,United States,College graduate or more,26,42,24,2.7,1600,38,5
+1531,Female,United States,Some college/university,35,85,68,3.67,1520,42,3
+1537,Female,United States,High school graduate,40,91,70,3.33,1620,56,4
+1539,Female,United States,less.than.hs,40,64,79,2.83,1000,56,5
+1540,Female,United States,College graduate or more,3,73,5,2.08,2000,23,3
+1546,Male,United States,College graduate or more,35,99,82,2.58,2200,34,3
+1553,Female,United States,High school graduate,2,63,29,2.67,2400,34,3
+1558,Male,United States,High school graduate,22,66,27,3,900,39,3
+1561,Male,United States,less.than.hs,44,45,25,2.7,1900,20,1
+1562,Female,United States,College graduate or more,44,31,79,2.25,1300,20,5
+1567,Female,United States,less.than.hs,35,67,27,2.17,1500,42,4
+1570,Female,United States,High school graduate,51,56,31,3,2400,55,5
+1575,Female,United States,High school graduate,8,5,37,1.58,1312,42,5
+1578,Male,United States,College graduate or more,13,7,16,2.33,500,34,4
+1579,Female,United States,less.than.hs,14,39,27,2.42,1590,53,4
+1581,Male,United States,College graduate or more,30,65,83,2.5,2500,39,5
+1616,Male,United States,College graduate or more,34,90,80,2.7,1000,39,4
+1973,Male,United States,High school graduate,22,25,57,2.5,2500,52,5
+1978,Female,United States,Some college/university,13,88,43,4.17,2000,78,2
+1979,Female,United States,less.than.hs,30,26,43,3,560,34,1
+1990,Female,United States,High school graduate,3,54,63,2.75,1018,38,3
+1996,Male,United States,Some college/university,3,26,24,2.17,2500,35,5
+2000,Male,United States,less.than.hs,3,39,29,1.58,1650,50,3
+2001,Male,United States,less.than.hs,35,51,32,0.7,1600,20,5
+2004,Male,United States,less.than.hs,18,34,43,2.57,2500,50,4
+2005,Female,United States,High school graduate,35,83,44,2.83,2100,42,5
+2011,Female,United States,less.than.hs,3,59,37,2.17,1486,42,4
+2015,Female,United States,High school graduate,22,66,54,2.83,2000,42,2
+2017,Male,United States,High school graduate,8,79,24,1.58,1500,39,5
+2019,Male,United States,High school graduate,35,33,9,2.5,1300,26,4
+2023,Female,United States,High school graduate,18,17,1,1.83,1500,49,4
+2034,Female,United States,Some college/university,30,98,84,4.33,1400,42,3
+2039,Female,United States,College graduate or more,40,98,73,3.33,2200,78,5
+2058,Female,United States,High school graduate,3,62,71,2.67,1300,32,1
+2066,Male,United States,High school graduate,35,73,70,2.58,1500,46,3
+2070,Female,United States,less.than.hs,44,39,67,3.17,1000,53,2
+2074,Male,United States,High school graduate,5,46,22,2.33,1600,34,3
+2084,Male,United States,High school graduate,30,94,76,1.67,1600,29,4
+2085,Male,United States,Some college/university,18,73,74,3.07,1800,41,4
+2091,Male,United States,Some college/university,35,89,8,1.42,2800,32,3
+2093,Male,United States,less.than.hs,3,15,29,1.08,1250,34,4
+2109,Female,United States,College graduate or more,30,57,50,2.17,1600,42,5
+2118,Female,United States,College graduate or more,30,91,74,3.6,2080,53,1
+2122,Female,United States,less.than.hs,22,31,18,2.67,1400,52,5
+2123,Female,United States,College graduate or more,13,68,74,3.25,2300,72,4
+2128,Female,United States,High school graduate,35,99,79,3.83,1000,72,5
+2131,Female,United States,College graduate or more,40,87,73,3.33,2000,53,5
+2133,Female,United States,less.than.hs,40,71,31,3,600,60,3
+2140,Male,United States,Some college/university,3,44,29,1.2,1800,29,3
+2156,Female,United States,less.than.hs,40,41,13,2.2,1100,39,5
+2174,Female,United States,High school graduate,13,2,1,1.9,700,16,4
+2197,Female,United States,High school graduate,3,47,32,3.5,1480,51,4
+2202,Female,United States,College graduate or more,30,80,35,2.33,2200,52,5
+2203,Female,United States,College graduate or more,44,99,80,3.25,1900,60,5
+2209,Female,United States,less.than.hs,22,40,37,0.92,1400,56,3
+2214,Female,United States,College graduate or more,13,57,54,2.33,1900,53,2
+2218,Female,United States,High school graduate,30,86,18,1.75,2500,44,4
+2239,Female,United States,College graduate or more,30,23,27,2.33,1100,42,4
+2240,Male,United States,College graduate or more,31,98,91,4.08,1250,55,4
+2244,Female,United States,College graduate or more,35,99,74,4,1400,70,4
+2250,Male,United States,Some college/university,44,82,74,3.25,600,50,5
+2257,Female,United States,less.than.hs,1,13,32,2.33,2700,60,4
+2266,Female,United States,less.than.hs,23,68,28,3.8,1200,34,4
+2270,Male,United States,less.than.hs,3,94,53,2.67,1200,39,4
+2272,Female,United States,High school graduate,40,54,76,3.17,700,45,4
+2274,Female,United States,College graduate or more,13,66,27,2.42,1000,34,5
+2294,Male,United States,Some college/university,30,99,86,4.5,2500,62,2
+2301,Female,United States,Some college/university,13,74,18,2.5,1600,34,5
+2304,Male,United States,College graduate or more,3,88,79,4.14,1600,66,5
+2314,Male,United States,College graduate or more,4,28,16,1.5,2000,31,3
+2318,Female,United States,College graduate or more,3,45,76,3.33,600,53,5
+2322,Female,United States,less.than.hs,3,41,51,2.17,1250,38,4
+2325,Female,United States,High school graduate,22,28,62,1.5,1135,29,4
+2326,Female,United States,less.than.hs,48,34,40,3.92,400,42,4
+2330,Female,United States,College graduate or more,18,62,3,2.5,1600,67,5
+2335,Female,United States,less.than.hs,30,61,4,1.33,1500,31,3
+2337,Female,United States,Some college/university,3,54,27,2.75,1000,42,4
+2344,Female,United States,College graduate or more,30,35,44,3.67,2100,39,4
+2356,Female,United States,less.than.hs,2,57,27,1.33,1500,58,4
+2359,Female,United States,less.than.hs,22,39,51,2.33,1200,28,4
+2360,Female,United States,High school graduate,35,49,62,2.92,1500,34,2
+2362,Female,United States,College graduate or more,3,91,73,4,2700,62,5
+2374,Female,United States,less.than.hs,35,78,53,2.2,2700,34,5
+2376,Male,United States,Some college/university,22,44,67,1.17,2500,21,1
+2378,Female,United States,High school graduate,22,99,60,3.58,1760,42,4
+2393,Male,United States,Some college/university,18,26,34,2,1100,28,2
+2396,Female,United States,less.than.hs,3,4,1,2.2,1310,37,5
+2403,Female,United States,High school graduate,35,93,52,3.6,1520,55,4
+2404,Female,United States,less.than.hs,22,77,57,1.4,2300,44,5
+2412,Male,United States,High school graduate,35,8,21,0.92,630,42,4
+2415,Male,United States,College graduate or more,40,79,79,3,1000,37,1
+2420,Female,United States,College graduate or more,13,82,64,4,2000,37,4
+2421,Female,United States,Some college/university,13,34,37,3.25,2000,60,5
+2422,Male,United States,Some college/university,13,64,29,2.5,2300,42,3
+2427,Male,United States,less.than.hs,3,2,35,1.92,840,20,3
+2428,Male,United States,High school graduate,35,49,37,3,2000,53,5
+2429,Female,United States,College graduate or more,30,94,87,3.17,1900,53,1
+2436,Female,United States,less.than.hs,22,83,54,2.67,760,52,4
+2442,Female,United States,High school graduate,30,22,57,1.79,2100,53,4
+2455,Male,United States,Some college/university,30,92,88,4.17,1200,60,3
+2460,Female,United States,less.than.hs,14,12,24,2.17,1200,28,4
+2470,Male,United States,High school graduate,23,95,86,3.57,1300,78,4
+2472,Male,United States,High school graduate,35,57,60,2.83,2500,29,4
+2485,Female,United States,less.than.hs,22,56,43,2.17,950,42,3
+2487,Female,United States,College graduate or more,40,62,34,3,1300,48,4
+2505,Female,United States,less.than.hs,3,71,14,2.36,1040,53,4
+2507,Female,United States,less.than.hs,3,12,3,2.8,1600,37,1
+2521,Female,United States,College graduate or more,48,99,84,4.42,2400,49,5
+2532,Male,United States,less.than.hs,13,64,35,3.08,2390,52,5
+2537,Female,United States,High school graduate,44,99,32,4.17,2600,54,3
+2539,Female,United States,less.than.hs,30,89,67,2.67,1000,38,4
+2543,Female,United States,College graduate or more,2,44,50,1.75,1800,39,5
+2544,Female,United States,less.than.hs,40,61,40,4.33,2000,60,5
+2546,Female,United States,High school graduate,35,56,37,2.67,1300,52,4
+2552,Male,United States,less.than.hs,18,7,20,2.33,1200,53,5
+2554,Female,United States,less.than.hs,22,83,27,2.15,800,57,1
+2560,Female,United States,Some college/university,2,64,46,2.25,1000,44,5
+2567,Female,United States,College graduate or more,3,2,2,2.1,1300,34,4
+2571,Male,United States,High school graduate,13,66,57,2.56,1800,34,4
+2574,Male,United States,Some college/university,18,88,27,2.33,1200,49,2
+2579,Female,United States,less.than.hs,3,47,85,2.58,1300,42,4
+2585,Male,United States,Some college/university,8,71,78,1.76,1200,53,3
+2589,Male,United States,less.than.hs,8,92,79,1.67,1800,51,4
+2590,Female,United States,Some college/university,22,55,28,2.42,1600,34,4
+2592,Male,United States,less.than.hs,36,13,4,0.33,1100,36,4
+2601,Male,United States,College graduate or more,14,77,46,3,2000,42,4
+2602,Male,United States,Some college/university,14,49,18,3.5,1300,62,3
+2615,Female,United States,College graduate or more,22,24,57,1.25,2500,54,5
+2616,Female,United States,less.than.hs,13,28,37,0.92,1312,42,4
+2620,Female,United States,less.than.hs,35,51,41,2.75,1500,39,2
+2629,Female,United States,Some college/university,3,95,88,4.25,2200,42,5
+2631,Male,United States,Some college/university,40,73,37,3.33,800,34,1
+2632,Female,United States,less.than.hs,13,71,37,2.67,1800,53,5
+2642,Female,United States,Some college/university,35,99,55,3.58,200,42,4
+2643,Male,United States,High school graduate,23,69,41,1.92,1200,43,3
+2646,Female,United States,College graduate or more,44,28,16,1.42,2100,52,5
+2653,Female,United States,less.than.hs,44,44,27,2.08,1400,53,5
+2654,Female,United States,Some college/university,14,65,55,2.58,450,42,4
+2655,Female,United States,High school graduate,40,74,79,3.25,1200,49,4
+2657,Female,United States,less.than.hs,35,67,50,1.67,1200,42,4
+2663,Male,United States,less.than.hs,8,10,10,1.7,2400,37,3
+2670,Female,United States,High school graduate,30,44,37,2.83,850,50,5
+2674,Female,United States,High school graduate,30,83,35,2.67,1300,53,4
+2676,Female,United States,less.than.hs,2,77,80,4,2400,67,4
+2679,Female,United States,High school graduate,40,85,55,3,500,42,4
+2683,Female,United States,High school graduate,22,95,62,1,2400,49,5
+2690,Female,United States,High school graduate,35,73,29,2.75,1600,34,4
+2691,Female,United States,College graduate or more,18,24,20,1.75,1300,34,4
+2694,Male,United States,Some college/university,44,59,46,2.83,1400,37,3
+2699,Male,United States,less.than.hs,3,77,70,3.17,1800,53,4
+2707,Female,United States,College graduate or more,3,61,22,2,1700,41,5
+2713,Female,United States,College graduate or more,35,89,50,1.75,2630,42,5
+2729,Female,United States,less.than.hs,30,83,63,4,2500,57,5
+2734,Male,United States,Some college/university,22,77,35,2.67,900,20,4
+2739,Female,United States,College graduate or more,23,59,25,1.79,1200,22,4
+2740,Female,United States,High school graduate,48,66,73,3.2,1000,60,5
+2745,Male,United States,less.than.hs,3,7,12,1.83,2500,53,5
+2747,Female,United States,less.than.hs,8,51,29,2.83,840,50,4
+2751,Male,United States,less.than.hs,35,32,22,1.5,1600,55,4
+2755,Male,United States,High school graduate,2,51,21,2.33,2500,50,3
+2772,Male,United States,High school graduate,1,87,18,2.33,1300,38,5
+2785,Female,United States,College graduate or more,9,18,35,2.83,1200,53,4
+2960,Male,United States,less.than.hs,13,7,26,2.23,800,30,1
+2972,Female,United States,College graduate or more,22,33,22,1.17,1444,34,4
+3077,Female,United States,less.than.hs,18,53,43,3.08,450,37,5
+3098,Male,United States,High school graduate,13,74,41,2.8,1200,55,4
+3101,Male,United States,Some college/university,40,95,67,3.67,1500,48,5
+3211,Female,United States,Some college/university,22,22,21,0.43,1500,44,3
+3248,Male,United States,less.than.hs,40,69,0,2.57,2800,52,3
+3274,Female,United States,less.than.hs,13,15,4,2.33,1043,31,3
+3305,Female,United States,College graduate or more,35,87,62,3.67,1500,52,4
+5255,Female,United States,High school graduate,3,39,85,1.94,1400,34,4
+5261,Male,United States,Some college/university,35,71,62,4.17,900,42,3
