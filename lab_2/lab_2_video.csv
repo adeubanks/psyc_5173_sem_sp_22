@@ -777,8 +777,6 @@ caseid,sex,birthregion,mom_ed,friends1,sma,sra,gpa1,income3,jobscore3,jobsat3
 3286,Female,outside US,less.than.hs,8,51,79,2.5,2700,56,5
 3291,Female,outside US,less.than.hs,48,16,94,2.6,820,16,4
 3308,Male,outside US,High school graduate,35,46,41,2.6,1200,53,1
-5256,Female,outside US,College graduate or more,4,80,18,2.5,2500,30,4
-5258,Male,outside US,High school graduate,36,89,76,1.2,2200,33,4
 10,Female,United States,Some college/university,35,83,73,3.75,1100,42,5
 11,Female,United States,College graduate or more,8,71,86,2.83,850,53,4
 17,Female,United States,College graduate or more,8,85,34,3,1600,62,5
@@ -1157,5 +1155,3 @@ caseid,sex,birthregion,mom_ed,friends1,sma,sra,gpa1,income3,jobscore3,jobsat3
 3248,Male,United States,less.than.hs,40,69,0,2.57,2800,52,3
 3274,Female,United States,less.than.hs,13,15,4,2.33,1043,31,3
 3305,Female,United States,College graduate or more,35,87,62,3.67,1500,52,4
-5255,Female,United States,High school graduate,3,39,85,1.94,1400,34,4
-5261,Male,United States,Some college/university,35,71,62,4.17,900,42,3
