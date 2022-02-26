@@ -8,7 +8,7 @@
 
 # Notes -------------------------------------------------------------------
 # projects
-# git - change
+# git 
 
 # Libraries ---------------------------------------------------------------
 library(tidyverse)
@@ -72,15 +72,10 @@ lm(income3 ~ birthregion_copy, data = df) %>% tidy
 # needs to be a matrix if more than 2
 matrix(1:12, ncol = 3)
 
-lm(income3 ~ birthregion_copy, data = df) %>% tidy
-lm(income3 ~ birthregion_copy, data = df) %>% tidy
-
 
 
 # needs to be a matrix if more than 2
 matrix(1:12, ncol = 3)
-
-lm(income3 ~ birthregion, data = df) %>% tidy
 
 
 # p isn't everything with a big n's
@@ -89,13 +84,11 @@ df %>% group_by(sex) %>% summarise(M = mean(income3))
 
 df %>% 
   ggplot(aes(x = sex, y = income3)) + 
+  theme_classic() + 
   stat_summary(fun.data = mean_cl_normal, 
                geom = "pointrange")
 
 # Remember, p is testing if something is *exactly* zero.
-
-# dummy codes for > 2 groups ----------------------------------------------
-
 
 # dummy codes for > 2 groups ----------------------------------------------
 
@@ -117,15 +110,16 @@ df <- df %>%
          mom_ed_d3 = ifelse(mom_ed == "Some college/university", 1, 0))
 
 lm(income3 ~ mom_ed_d1 + mom_ed_d2 + mom_ed_d3, data = df) %>% tidy
+lm(income3 ~ mom_ed, data = df) %>% tidy
 
 
 # Regular ol' regressions vs. lavaan --------------------------------------
 
 
-birthregion_mod_1_spec <- 'income3 ~ 1 + birthregion' 
+birthregion_mod_1_spec <- 'income3 ~ 1 + birthregion_us_0' 
 # Reminder: the 1 just puts the intercept in the output but it's just like
 # "getting the receipt;" it doesn't change anything computationally.
-birthregion_mod_2_spec <- 'income3 ~ birthregion' 
+birthregion_mod_2_spec <- 'income3 ~ birthregion_us_0' 
 
 birthregion_mod_1 <- df %>% 
   sem(birthregion_mod_1_spec, data = .)
@@ -133,29 +127,13 @@ birthregion_mod_1 <- df %>%
 birthregion_mod_2 <- df %>% 
   sem(birthregion_mod_2_spec, data = .)
 
-lm(income3 ~ birthregion, data = df) %>% tidy
+lm(income3 ~ birthregion_us_0, data = df) %>% tidy
 
 summary(birthregion_mod_1)
 summary(birthregion_mod_2)
 
-birthregion_mod_1 <- df %>% 
-  sem(birthregion_mod_1_spec, data = .)
-
-birthregion_mod_2 <- df %>% 
-  sem(birthregion_mod_2_spec, data = .)
-
-lm(income3 ~ birthregion, data = df) %>% tidy
-
-summary(birthregion_mod_1)
-summary(birthregion_mod_2)
-
-
 mod_2_spec <- 'income3 ~ 1 + birthregion + sma' 
 mod_2 <- df %>% sem(mod_2_spec, data = .)
-
-mod_2_spec <- 'income3 ~ 1 + birthregion + sma' 
-mod_2 <- df %>% sem(mod_2_spec, data = .)
-
 
 lm(income3 ~ birthregion + sma, data = df) %>% tidy
 
